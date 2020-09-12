@@ -9,7 +9,6 @@
       <tbody>
         <tr v-for="(loc, idx) in preparaDatos()" :key="loc['nombre']">
           <td v-for="(cell, index) in loc" :key="idx+''+index">{{cell}}</td>
-          <td></td>
         </tr>
       </tbody>
     </table>
@@ -27,7 +26,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default class TablaProvincias extends Vue {
   preparaCabecera () {
     const semanas = data[0].lecturas.map(lec => lec.semana)
-    const cabecera = ['Provincia', data[0].lecturasAct[0].semana].concat(semanas).concat('Detalle').flat()
+    const cabecera = ['Provincia', data[0].lecturasAct[0].semana].concat(semanas).concat('Acumulado').flat()
     return cabecera
   }
 
@@ -40,7 +39,8 @@ export default class TablaProvincias extends Vue {
       localidadesProv.forEach(loc => {
         const casos: any[] = loc.lecturasAct.map(lec => lec.casos)
         const casoUltima: any = loc.lecturas[loc.lecturas.length - 1].casos
-        const fila: any[] = [loc.provincia].concat(casos).concat(casoUltima).flat()
+        const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
+        const fila: any[] = [loc.provincia].concat(casos).concat(casoUltima).concat(suma).flat()
         arrayProvincia.push(fila)
       })
       const arrayProvSuma: any[] = [prov]

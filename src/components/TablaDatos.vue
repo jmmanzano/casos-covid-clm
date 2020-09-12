@@ -9,7 +9,6 @@
       <tbody>
         <tr v-for="(loc, idx) in preparaDatos()" :key="loc.nombre">
           <td v-for="(cell, index) in loc" :key="idx+''+index">{{cell}}</td>
-          <td></td>
         </tr>
       </tbody>
     </table>
@@ -27,7 +26,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default class TablaDatos extends Vue {
   preparaCabecera () {
     const semanas = data[0].lecturas.map(lec => lec.semana)
-    const cabecera = ['Localidad', 'Provincia', 'Habitantes', data[0].lecturasAct[0].semana].concat(semanas).concat('Detalle').flat()
+    const cabecera = ['Localidad', 'Provincia', 'Habitantes', data[0].lecturasAct[0].semana].concat(semanas).concat('Acumulado').flat()
     return cabecera
   }
 
@@ -36,7 +35,8 @@ export default class TablaDatos extends Vue {
     data.forEach(loc => {
       const casos = loc.lecturasAct.map(lec => lec.casos)
       const casoUltima = loc.lecturas[loc.lecturas.length - 1].casos
-      const fila = [loc.nombre, loc.provincia, loc.habitantes].concat(casos).concat(casoUltima).flat()
+      const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
+      const fila = [loc.nombre, loc.provincia, loc.habitantes].concat(casos).concat(casoUltima).concat(suma).flat()
       tablaLocCasosSemana.push(fila)
     })
     return tablaLocCasosSemana
