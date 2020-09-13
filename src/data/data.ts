@@ -178,11 +178,11 @@ export const data: Localidad[] = [{
 }, {
   nombre: 'Cuenca',
   provincia: 'Cuenca',
-  habitantes: 54.69,
+  habitantes: 54.691,
   listaSemanas: [{
     nombre: 'Cuenca',
     provincia: 'Cuenca',
-    habitantes: 54.69,
+    habitantes: 54.691,
     casosSemanaAnterior: 12,
     casosSemanaActual: 23,
     semanaAnterior: 34,
@@ -190,7 +190,7 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Cuenca',
     provincia: 'Cuenca',
-    habitantes: 54.69,
+    habitantes: 54.691,
     casosSemanaAnterior: 27,
     casosSemanaActual: 16,
     semanaAnterior: 35,

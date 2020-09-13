@@ -1,26 +1,16 @@
 
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">Casos COVID Castilla La Mancha</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <router-link class="nav-item nav-link" to="/">Localidades</router-link>
-          <router-link class="nav-item nav-link" to="/provincias">Provincias</router-link>
-        </div>
-      </div>
-    </nav>
+      <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar-brand href="#">Casos Covid CLM</b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <router-link class="nav-item nav-link" to="/">Localidades</router-link>
+        <router-link class="nav-item nav-link" to="/provincias">Provincias</router-link>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
     <router-view />
   </div>
 </template>

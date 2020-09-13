@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <br>
+    <h2>CASOS POR PROVINCIA</h2>
+    <br>
     <table class="table table-bordered table-striped table-responsive">
       <thead>
         <tr>
