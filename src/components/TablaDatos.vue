@@ -1,11 +1,26 @@
 <template>
   <div class="container">
-    <br>
+    <br />
     <h2>CASOS POR LOCALIDADES</h2>
-    <br>
+    <br />
     <b-form-input v-model="filtro" placeholder="Filtra por localidad" keyup="filtraLocalidad()"></b-form-input>
-    <br>
-    <b-table  :items="filtraLocalidad()" striped :fields="arrayCabecera" responsive head-variant="light"></b-table>
+    <br />
+    <b-table
+      class="tablaLocalidades"
+      sticky-header
+      :items="filtraLocalidad()"
+      striped
+      :fields="arrayCabecera"
+      responsive
+      head-variant="light"
+    ></b-table>
+    <hr />
+    <p>
+      Datos obtenidos de la web:
+      <a
+        href="https://sanidad.castillalamancha.es/ciudadanos/enfermedades-infecciosas/coronavirus/evolucion-de-coronavirus-covid-19-en-castilla-la-mancha/evolucion-por-municipios"
+      >https://sanidad.castillalamancha.es/ciudadanos/enfermedades-infecciosas/coronavirus/evolucion-de-coronavirus-covid-19-en-castilla-la-mancha/evolucion-por-municipios</a>
+    </p>
   </div>
 </template>
 
@@ -15,18 +30,12 @@ import { data } from '../data/data'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-@Component({
-  filters: {
-    filterNumber (value: number) {
-      return Math.round(value * 100) / 100
-    }
-  }
-})
+@Component
 export default class TablaDatos extends Vue {
-  arrayCabecera: Record<string, any>[] = []
-  cabecera: (string | number)[] = []
-  cuerpo: any[] = []
-  filtro = ''
+  arrayCabecera: Record<string, any>[] = [];
+  cabecera: (string | number)[] = [];
+  cuerpo: any[] = [];
+  filtro = '';
 
   created () {
     this.cabecera = this.preparaCabecera()
@@ -43,7 +52,7 @@ export default class TablaDatos extends Vue {
     ]
       .concat(semanas)
       .concat('Acumulado')
-      .concat('Tasa 15 dias')
+      .concat('Tasa 14 dias')
       .flat()
 
     cabecera.forEach((propName, index) => {
@@ -51,6 +60,10 @@ export default class TablaDatos extends Vue {
       objectCabecera.key = propName.toString()
       objectCabecera.label = propName.toString()
       objectCabecera.sortable = true
+      if (index === 0) {
+        objectCabecera.stickyColumn = true
+        objectCabecera.isRowHeader = true
+      }
       this.arrayCabecera.push(objectCabecera)
     })
     return cabecera
@@ -62,13 +75,19 @@ export default class TablaDatos extends Vue {
       const casos = loc.lecturasAct.map((lec) => lec.casos)
       const casoUltima = loc.lecturas[loc.lecturas.length - 1].casos
       const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
-      const habi = loc.habitantes.toString().includes('.') ? loc.habitantes * 1000 : loc.habitantes
-      const casos15 = (casoUltima + casos[casos.length - 1]) * (100000 / habi)
-      const fila: (string | number)[] = [loc.nombre, loc.provincia, parseInt(habi.toString())]
+      const habi = loc.habitantes.toString().includes('.')
+        ? loc.habitantes * 1000
+        : loc.habitantes
+      const casos14 = (casoUltima + casos[casos.length - 1]) * (100000 / habi)
+      const fila: (string | number)[] = [
+        loc.nombre,
+        loc.provincia,
+        parseInt(habi.toString())
+      ]
         .concat(casos)
         .concat(casoUltima)
         .concat(suma)
-        .concat(this.filterNumber(casos15))
+        .concat(this.filterNumber(casos14))
         .flat()
       const filaObject: Record<string, any> = {}
       this.cabecera.forEach((propName, index) => {
@@ -83,9 +102,9 @@ export default class TablaDatos extends Vue {
     if (this.filtro === '') {
       return this.cuerpo
     } else {
-      console.log(this.cuerpo)
-      const filtrado = this.cuerpo.filter(elem => { return elem.Localidad.toUpperCase().includes(this.filtro.toUpperCase()) })
-      console.log(filtrado)
+      const filtrado = this.cuerpo.filter((elem) => {
+        return elem.Localidad.toUpperCase().includes(this.filtro.toUpperCase())
+      })
       return filtrado
     }
   }
@@ -95,3 +114,8 @@ export default class TablaDatos extends Vue {
   }
 }
 </script>
+<style lang="css" scoped>
+.tablaLocalidades {
+  max-height: 500px !important;
+}
+</style>

@@ -8,11 +8,13 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'Localidades',
+    meta: { title: 'Casos por localidades' },
     component: Home
   },
   {
     path: '/provincias',
     name: 'Provincias',
+    meta: { title: 'Casos por provincias' },
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
