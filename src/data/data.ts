@@ -20,6 +20,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alberca de Záncara ',
+    provincia: 'Cuenca',
+    habitantes: 1590,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -27,12 +35,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -55,6 +69,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Belmonte',
+    provincia: 'Cuenca',
+    habitantes: 1903,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -62,12 +84,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -90,12 +118,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Campillo de Altobuey',
+    provincia: 'Cuenca',
+    habitantes: 1322,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -104,6 +143,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Casas de Fernando Alonso',
@@ -125,12 +167,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casas de Fernando Alonso',
+    provincia: 'Cuenca',
+    habitantes: 1169,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 4
+  }, {
+    semana: 37,
     casos: 4
   }],
   lecturasAct: [{
@@ -139,6 +192,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Casasimarro',
@@ -160,6 +216,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casasimarro',
+    provincia: 'Cuenca',
+    habitantes: 3084,
+    casosSemanaAnterior: 13,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -167,6 +231,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -174,15 +241,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 13
   }]
 }, {
   nombre: 'Cuenca',
   provincia: 'Cuenca',
-  habitantes: 54.691,
+  habitantes: 54690,
   listaSemanas: [{
     nombre: 'Cuenca',
     provincia: 'Cuenca',
-    habitantes: 54.691,
+    habitantes: 54690,
     casosSemanaAnterior: 12,
     casosSemanaActual: 23,
     semanaAnterior: 34,
@@ -190,11 +260,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Cuenca',
     provincia: 'Cuenca',
-    habitantes: 54.691,
+    habitantes: 54690,
     casosSemanaAnterior: 27,
     casosSemanaActual: 16,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cuenca',
+    provincia: 'Cuenca',
+    habitantes: 54690,
+    casosSemanaAnterior: 25,
+    casosSemanaActual: 45,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -202,6 +280,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 16
+  }, {
+    semana: 37,
+    casos: 45
   }],
   lecturasAct: [{
     semana: 34,
@@ -209,6 +290,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 27
+  }, {
+    semana: 36,
+    casos: 25
   }]
 }, {
   nombre: 'Fuente de Pedro Naharro',
@@ -230,6 +314,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuente de Pedro Naharro',
+    provincia: 'Cuenca',
+    habitantes: 1205,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 13,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -237,6 +329,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 13
   }],
   lecturasAct: [{
     semana: 34,
@@ -244,6 +339,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Honrubia',
@@ -265,6 +363,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Honrubia',
+    provincia: 'Cuenca',
+    habitantes: 1566,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -272,6 +378,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -279,6 +388,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Horcajo de Santiago',
@@ -300,12 +412,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Horcajo de Santiago',
+    provincia: 'Cuenca',
+    habitantes: 3493,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -314,6 +437,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Huete',
@@ -335,6 +461,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Huete',
+    provincia: 'Cuenca',
+    habitantes: 1765,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -342,12 +476,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -370,6 +510,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Iniesta',
+    provincia: 'Cuenca',
+    habitantes: 4305,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -377,6 +525,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -384,6 +535,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Landete',
@@ -405,6 +559,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Landete',
+    provincia: 'Cuenca',
+    habitantes: 1234,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -412,6 +574,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -419,6 +584,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Ledaña',
@@ -440,6 +608,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ledaña',
+    provincia: 'Cuenca',
+    habitantes: 1563,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -447,6 +623,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -454,6 +633,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Mesas (Las)',
@@ -475,6 +657,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mesas (Las)',
+    provincia: 'Cuenca',
+    habitantes: 2336,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -482,6 +672,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -489,6 +682,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Minglanilla',
@@ -510,12 +706,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Minglanilla',
+    provincia: 'Cuenca',
+    habitantes: 2221,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -524,6 +731,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Mota del Cuervo',
@@ -545,6 +755,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mota del Cuervo',
+    provincia: 'Cuenca',
+    habitantes: 5990,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 18,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -552,6 +770,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 18
   }],
   lecturasAct: [{
     semana: 34,
@@ -559,6 +780,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Motilla del Palancar',
@@ -580,6 +804,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Motilla del Palancar',
+    provincia: 'Cuenca',
+    habitantes: 5869,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -587,6 +819,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -594,6 +829,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 14
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Pedernoso (El)',
@@ -615,6 +853,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pedernoso (El)',
+    provincia: 'Cuenca',
+    habitantes: 1124,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -622,12 +868,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
     casos: 2
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -650,6 +902,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pedroñeras (Las)',
+    provincia: 'Cuenca',
+    habitantes: 6638,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 16,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -657,6 +917,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 16
   }],
   lecturasAct: [{
     semana: 34,
@@ -664,6 +927,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Provencio (El)',
@@ -685,6 +951,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Provencio (El)',
+    provincia: 'Cuenca',
+    habitantes: 2437,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -692,6 +966,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -699,6 +976,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Quintanar del Rey',
@@ -720,6 +1000,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Quintanar del Rey',
+    provincia: 'Cuenca',
+    habitantes: 7586,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -727,6 +1015,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -734,6 +1025,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'San Clemente',
@@ -755,6 +1049,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 13,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Clemente',
+    provincia: 'Cuenca',
+    habitantes: 6988,
+    casosSemanaAnterior: 13,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -762,6 +1064,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 13
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -769,6 +1074,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 13
   }]
 }, {
   nombre: 'San Lorenzo de la Parrilla',
@@ -790,6 +1098,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Lorenzo de la Parrilla',
+    provincia: 'Cuenca',
+    habitantes: 1042,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -797,12 +1113,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -825,6 +1147,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Sisante',
+    provincia: 'Cuenca',
+    habitantes: 1642,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -832,6 +1162,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -839,15 +1172,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Tarancón',
   provincia: 'Cuenca',
-  habitantes: 15.271,
+  habitantes: 15271,
   listaSemanas: [{
     nombre: 'Tarancón',
     provincia: 'Cuenca',
-    habitantes: 15.271,
+    habitantes: 15271,
     casosSemanaAnterior: 13,
     casosSemanaActual: 9,
     semanaAnterior: 34,
@@ -855,11 +1191,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Tarancón',
     provincia: 'Cuenca',
-    habitantes: 15.271,
+    habitantes: 15271,
     casosSemanaAnterior: 12,
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tarancón',
+    provincia: 'Cuenca',
+    habitantes: 15271,
+    casosSemanaAnterior: 20,
+    casosSemanaActual: 19,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -867,6 +1211,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 19
   }],
   lecturasAct: [{
     semana: 34,
@@ -874,6 +1221,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 12
+  }, {
+    semana: 36,
+    casos: 20
   }]
 }, {
   nombre: 'Valverde de Júcar',
@@ -895,6 +1245,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valverde de Júcar',
+    provincia: 'Cuenca',
+    habitantes: 1082,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -902,12 +1260,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -930,6 +1294,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villalpardo',
+    provincia: 'Cuenca',
+    habitantes: 1018,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -937,12 +1309,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -965,6 +1343,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villamayor de Santiago',
+    provincia: 'Cuenca',
+    habitantes: 2481,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -972,6 +1358,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -979,6 +1368,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Villanueva de la Jara',
@@ -1000,12 +1392,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villanueva de la Jara',
+    provincia: 'Cuenca',
+    habitantes: 2249,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 2
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -1014,6 +1417,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Villar de Olalla',
@@ -1035,6 +1441,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villar de Olalla',
+    provincia: 'Cuenca',
+    habitantes: 1270,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1042,12 +1456,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1070,6 +1490,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valeras (Las)',
+    provincia: 'Cuenca',
+    habitantes: 1496,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 13,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1077,6 +1505,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 13
   }],
   lecturasAct: [{
     semana: 34,
@@ -1084,6 +1515,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Arcas del Villar',
@@ -1105,12 +1539,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Arcas del Villar',
+    provincia: 'Cuenca',
+    habitantes: 1716,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -1119,15 +1564,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Albacete',
   provincia: 'Albacete',
-  habitantes: 173.329,
+  habitantes: 173329,
   listaSemanas: [{
     nombre: 'Albacete',
     provincia: 'Albacete',
-    habitantes: 173.329,
+    habitantes: 173329,
     casosSemanaAnterior: 180,
     casosSemanaActual: 163,
     semanaAnterior: 34,
@@ -1135,11 +1583,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Albacete',
     provincia: 'Albacete',
-    habitantes: 173.329,
+    habitantes: 173329,
     casosSemanaAnterior: 297,
     casosSemanaActual: 124,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Albacete',
+    provincia: 'Albacete',
+    habitantes: 173329,
+    casosSemanaAnterior: 261,
+    casosSemanaActual: 167,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1147,6 +1603,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 124
+  }, {
+    semana: 37,
+    casos: 167
   }],
   lecturasAct: [{
     semana: 34,
@@ -1154,6 +1613,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 297
+  }, {
+    semana: 36,
+    casos: 261
   }]
 }, {
   nombre: 'Alcalá  del Jucar',
@@ -1175,6 +1637,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alcalá  del Jucar',
+    provincia: 'Albacete',
+    habitantes: 1170,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1182,12 +1652,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1210,6 +1686,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alcaraz',
+    provincia: 'Albacete',
+    habitantes: 1351,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1217,6 +1701,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -1224,15 +1711,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Almansa',
   provincia: 'Albacete',
-  habitantes: 24.419,
+  habitantes: 24419,
   listaSemanas: [{
     nombre: 'Almansa',
     provincia: 'Albacete',
-    habitantes: 24.419,
+    habitantes: 24419,
     casosSemanaAnterior: 9,
     casosSemanaActual: 2,
     semanaAnterior: 34,
@@ -1240,11 +1730,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Almansa',
     provincia: 'Albacete',
-    habitantes: 24.419,
+    habitantes: 24419,
     casosSemanaAnterior: 3,
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almansa',
+    provincia: 'Albacete',
+    habitantes: 24419,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1252,6 +1750,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -1259,6 +1760,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 14
   }]
 }, {
   nombre: 'Alpera',
@@ -1280,6 +1784,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alpera',
+    provincia: 'Albacete',
+    habitantes: 2265,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1287,6 +1799,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -1294,6 +1809,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Balazote',
@@ -1315,6 +1833,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Balazote',
+    provincia: 'Albacete',
+    habitantes: 2334,
+    casosSemanaAnterior: 16,
+    casosSemanaActual: 24,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1322,6 +1848,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 24
   }],
   lecturasAct: [{
     semana: 34,
@@ -1329,6 +1858,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 16
   }]
 }, {
   nombre: 'Barrax',
@@ -1350,6 +1882,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Barrax',
+    provincia: 'Albacete',
+    habitantes: 1833,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1357,6 +1897,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -1364,6 +1907,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Bonete',
@@ -1385,6 +1931,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Bonete',
+    provincia: 'Albacete',
+    habitantes: 1049,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1392,12 +1946,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1420,6 +1980,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Bonillo (El)',
+    provincia: 'Albacete',
+    habitantes: 2779,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1427,6 +1995,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -1434,6 +2005,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Casas de Juan Nuñez',
@@ -1455,6 +2029,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casas de Juan Nuñez',
+    provincia: 'Albacete',
+    habitantes: 1307,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1462,6 +2044,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -1469,6 +2054,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Casas-Ibañez',
@@ -1490,6 +2078,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casas-Ibañez',
+    provincia: 'Albacete',
+    habitantes: 4538,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1497,12 +2093,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 1
+  }, {
+    semana: 36,
     casos: 1
   }]
 }, {
@@ -1525,12 +2127,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Caudete',
+    provincia: 'Albacete',
+    habitantes: 9963,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 6
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -1539,6 +2152,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Cenizate',
@@ -1560,6 +2176,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cenizate',
+    provincia: 'Albacete',
+    habitantes: 1181,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1567,6 +2191,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
@@ -1574,6 +2201,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Chinchilla de Monte-Aragón',
@@ -1595,6 +2225,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Chinchilla de Monte-Aragón',
+    provincia: 'Albacete',
+    habitantes: 4206,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1602,6 +2240,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -1609,6 +2250,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Elche de la Sierra',
@@ -1630,6 +2274,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Elche de la Sierra',
+    provincia: 'Albacete',
+    habitantes: 3585,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1637,6 +2289,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -1644,6 +2299,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Fuente-Alamo',
@@ -1665,6 +2323,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuente-Alamo',
+    provincia: 'Albacete',
+    habitantes: 2489,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1672,12 +2338,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1700,6 +2372,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuentealbilla',
+    provincia: 'Albacete',
+    habitantes: 1792,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1707,6 +2387,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -1714,6 +2397,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Gineta (La)',
@@ -1735,12 +2421,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Gineta (La)',
+    provincia: 'Albacete',
+    habitantes: 2512,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -1749,15 +2446,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Hellín',
   provincia: 'Albacete',
-  habitantes: 30.306,
+  habitantes: 30306,
   listaSemanas: [{
     nombre: 'Hellín',
     provincia: 'Albacete',
-    habitantes: 30.306,
+    habitantes: 30306,
     casosSemanaAnterior: 14,
     casosSemanaActual: 8,
     semanaAnterior: 34,
@@ -1765,11 +2465,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Hellín',
     provincia: 'Albacete',
-    habitantes: 30.306,
+    habitantes: 30306,
     casosSemanaAnterior: 8,
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Hellín',
+    provincia: 'Albacete',
+    habitantes: 30306,
+    casosSemanaAnterior: 22,
+    casosSemanaActual: 32,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1777,6 +2485,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 32
   }],
   lecturasAct: [{
     semana: 34,
@@ -1784,6 +2495,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 22
   }]
 }, {
   nombre: 'Higueruela',
@@ -1805,12 +2519,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Higueruela',
+    provincia: 'Albacete',
+    habitantes: 1158,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 2
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -1819,6 +2544,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Lezuza',
@@ -1840,6 +2568,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Lezuza',
+    provincia: 'Albacete',
+    habitantes: 1358,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1847,12 +2583,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1875,6 +2617,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 13,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Lietor',
+    provincia: 'Albacete',
+    habitantes: 1175,
+    casosSemanaAnterior: 17,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1882,6 +2632,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 13
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -1889,6 +2642,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 17
   }]
 }, {
   nombre: 'Madrigueras',
@@ -1910,12 +2666,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Madrigueras',
+    provincia: 'Albacete',
+    habitantes: 4652,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -1924,6 +2691,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Mahora',
@@ -1945,6 +2715,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mahora',
+    provincia: 'Albacete',
+    habitantes: 1383,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1952,12 +2730,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -1980,6 +2764,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Minaya',
+    provincia: 'Albacete',
+    habitantes: 1501,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -1987,12 +2779,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -2015,6 +2813,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Montealegre del Castillo',
+    provincia: 'Albacete',
+    habitantes: 2051,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2022,6 +2828,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -2029,6 +2838,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Munera',
@@ -2050,6 +2862,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Munera',
+    provincia: 'Albacete',
+    habitantes: 3435,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2057,6 +2877,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -2064,6 +2887,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Nerpio',
@@ -2085,6 +2911,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Nerpio',
+    provincia: 'Albacete',
+    habitantes: 1191,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2092,12 +2926,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -2120,12 +2960,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ontur',
+    provincia: 'Albacete',
+    habitantes: 1987,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -2134,6 +2985,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Ossa de Montiel',
@@ -2155,6 +3009,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ossa de Montiel',
+    provincia: 'Albacete',
+    habitantes: 2307,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2162,6 +3024,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -2169,6 +3034,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Peñas de San Pedro',
@@ -2190,12 +3058,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Peñas de San Pedro',
+    provincia: 'Albacete',
+    habitantes: 1399,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -2204,6 +3083,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Pozohondo',
@@ -2225,6 +3107,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pozohondo',
+    provincia: 'Albacete',
+    habitantes: 1585,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2232,12 +3122,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 2
+  }, {
+    semana: 36,
     casos: 2
   }]
 }, {
@@ -2260,12 +3156,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Riopar',
+    provincia: 'Albacete',
+    habitantes: 1332,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -2274,15 +3181,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Roda (La)',
   provincia: 'Albacete',
-  habitantes: 15.476,
+  habitantes: 15476,
   listaSemanas: [{
     nombre: 'Roda (La)',
     provincia: 'Albacete',
-    habitantes: 15.476,
+    habitantes: 15476,
     casosSemanaAnterior: 12,
     casosSemanaActual: 1,
     semanaAnterior: 34,
@@ -2290,11 +3200,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Roda (La)',
     provincia: 'Albacete',
-    habitantes: 15.476,
+    habitantes: 15476,
     casosSemanaAnterior: 15,
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Roda (La)',
+    provincia: 'Albacete',
+    habitantes: 15476,
+    casosSemanaAnterior: 21,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2302,6 +3220,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -2309,6 +3230,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 15
+  }, {
+    semana: 36,
+    casos: 21
   }]
 }, {
   nombre: 'San Pedro',
@@ -2330,12 +3254,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Pedro',
+    provincia: 'Albacete',
+    habitantes: 1242,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -2344,6 +3279,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Socovos',
@@ -2365,6 +3303,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Socovos',
+    provincia: 'Albacete',
+    habitantes: 1787,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2372,12 +3318,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -2400,6 +3352,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tarazona de la Mancha',
+    provincia: 'Albacete',
+    habitantes: 6235,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2407,6 +3367,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -2414,6 +3377,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Tobarra',
@@ -2435,6 +3401,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tobarra',
+    provincia: 'Albacete',
+    habitantes: 7684,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2442,6 +3416,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -2449,6 +3426,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Valdeganga',
@@ -2470,6 +3450,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valdeganga',
+    provincia: 'Albacete',
+    habitantes: 2028,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2477,6 +3465,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -2484,6 +3475,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Villalgordo del Jucar',
@@ -2505,6 +3499,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villalgordo del Jucar',
+    provincia: 'Albacete',
+    habitantes: 1094,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 13,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2512,6 +3514,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 13
   }],
   lecturasAct: [{
     semana: 34,
@@ -2519,6 +3524,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 10
+  }, {
+    semana: 36,
+    casos: 14
   }]
 }, {
   nombre: 'Villamalea',
@@ -2540,6 +3548,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villamalea',
+    provincia: 'Albacete',
+    habitantes: 4027,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2547,6 +3563,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -2554,15 +3573,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 16
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Villarrobledo',
   provincia: 'Albacete',
-  habitantes: 25.184,
+  habitantes: 25184,
   listaSemanas: [{
     nombre: 'Villarrobledo',
     provincia: 'Albacete',
-    habitantes: 25.184,
+    habitantes: 25184,
     casosSemanaAnterior: 18,
     casosSemanaActual: 15,
     semanaAnterior: 34,
@@ -2570,11 +3592,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Villarrobledo',
     provincia: 'Albacete',
-    habitantes: 25.184,
+    habitantes: 25184,
     casosSemanaAnterior: 14,
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villarrobledo',
+    provincia: 'Albacete',
+    habitantes: 25184,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 9,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2582,12 +3612,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 9
   }],
   lecturasAct: [{
     semana: 34,
     casos: 18
   }, {
     semana: 35,
+    casos: 14
+  }, {
+    semana: 36,
     casos: 14
   }]
 }, {
@@ -2610,12 +3646,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yeste',
+    provincia: 'Albacete',
+    habitantes: 2657,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -2624,6 +3671,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Pozo Cañada',
@@ -2645,6 +3695,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pozo Cañada',
+    provincia: 'Albacete',
+    habitantes: 2797,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2652,6 +3710,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -2659,6 +3720,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Abenójar',
@@ -2680,6 +3744,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Abenójar',
+    provincia: 'Ciudad Real',
+    habitantes: 1375,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2687,12 +3759,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 1
+  }, {
+    semana: 36,
     casos: 1
   }]
 }, {
@@ -2715,6 +3793,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Agudo',
+    provincia: 'Ciudad Real',
+    habitantes: 1659,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2722,12 +3808,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -2750,12 +3842,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Albaladejo',
+    provincia: 'Ciudad Real',
+    habitantes: 1158,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -2764,15 +3867,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Alcázar de San Juan',
   provincia: 'Ciudad Real',
-  habitantes: 30.576,
+  habitantes: 30576,
   listaSemanas: [{
     nombre: 'Alcázar de San Juan',
     provincia: 'Ciudad Real',
-    habitantes: 30.576,
+    habitantes: 30576,
     casosSemanaAnterior: 51,
     casosSemanaActual: 76,
     semanaAnterior: 34,
@@ -2780,11 +3886,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Alcázar de San Juan',
     provincia: 'Ciudad Real',
-    habitantes: 30.576,
+    habitantes: 30576,
     casosSemanaAnterior: 77,
     casosSemanaActual: 28,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alcázar de San Juan',
+    provincia: 'Ciudad Real',
+    habitantes: 30576,
+    casosSemanaAnterior: 31,
+    casosSemanaActual: 46,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2792,6 +3906,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 28
+  }, {
+    semana: 37,
+    casos: 46
   }],
   lecturasAct: [{
     semana: 34,
@@ -2799,6 +3916,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 77
+  }, {
+    semana: 36,
+    casos: 31
   }]
 }, {
   nombre: 'Alcolea de Calatrava',
@@ -2820,6 +3940,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alcolea de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 1409,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2827,6 +3955,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -2834,6 +3965,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Aldea del Rey',
@@ -2855,6 +3989,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Aldea del Rey',
+    provincia: 'Ciudad Real',
+    habitantes: 1657,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2862,6 +4004,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -2869,6 +4014,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 9
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Alhambra',
@@ -2890,6 +4038,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alhambra',
+    provincia: 'Ciudad Real',
+    habitantes: 1002,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2897,12 +4053,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -2925,12 +4087,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almadén',
+    provincia: 'Ciudad Real',
+    habitantes: 5312,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 1
+  }, {
+    semana: 37,
     casos: 1
   }],
   lecturasAct: [{
@@ -2939,6 +4112,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Almagro',
@@ -2960,6 +4136,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 11,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almagro',
+    provincia: 'Ciudad Real',
+    habitantes: 8896,
+    casosSemanaAnterior: 11,
+    casosSemanaActual: 23,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -2967,6 +4151,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 11
+  }, {
+    semana: 37,
+    casos: 23
   }],
   lecturasAct: [{
     semana: 34,
@@ -2974,6 +4161,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 10
+  }, {
+    semana: 36,
+    casos: 11
   }]
 }, {
   nombre: 'Almodóvar del Campo',
@@ -2995,6 +4185,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almodóvar del Campo',
+    provincia: 'Ciudad Real',
+    habitantes: 6027,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3002,6 +4200,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -3009,6 +4210,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Arenas de San Juan',
@@ -3030,6 +4234,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Arenas de San Juan',
+    provincia: 'Ciudad Real',
+    habitantes: 1011,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3037,6 +4249,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -3044,6 +4259,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Argamasilla de Alba',
@@ -3065,6 +4283,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Argamasilla de Alba',
+    provincia: 'Ciudad Real',
+    habitantes: 6838,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 12,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3072,6 +4298,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 12
   }],
   lecturasAct: [{
     semana: 34,
@@ -3079,6 +4308,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Argamasilla de Calatrava',
@@ -3100,6 +4332,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Argamasilla de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 5943,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3107,6 +4347,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
@@ -3114,15 +4357,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Bolaños de Calatrava',
   provincia: 'Ciudad Real',
-  habitantes: 11.934,
+  habitantes: 11934,
   listaSemanas: [{
     nombre: 'Bolaños de Calatrava',
     provincia: 'Ciudad Real',
-    habitantes: 11.934,
+    habitantes: 11934,
     casosSemanaAnterior: 51,
     casosSemanaActual: 125,
     semanaAnterior: 34,
@@ -3130,11 +4376,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Bolaños de Calatrava',
     provincia: 'Ciudad Real',
-    habitantes: 11.934,
+    habitantes: 11934,
     casosSemanaAnterior: 168,
     casosSemanaActual: 174,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Bolaños de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 11934,
+    casosSemanaAnterior: 188,
+    casosSemanaActual: 200,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3142,6 +4396,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 174
+  }, {
+    semana: 37,
+    casos: 200
   }],
   lecturasAct: [{
     semana: 34,
@@ -3149,6 +4406,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 168
+  }, {
+    semana: 36,
+    casos: 188
   }]
 }, {
   nombre: 'Brazatortas',
@@ -3170,6 +4430,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Brazatortas',
+    provincia: 'Ciudad Real',
+    habitantes: 1005,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3177,12 +4445,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -3205,6 +4479,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Calzada de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 3719,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 20,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3212,6 +4494,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 20
   }],
   lecturasAct: [{
     semana: 34,
@@ -3219,15 +4504,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Campo de Criptana',
   provincia: 'Ciudad Real',
-  habitantes: 13.414,
+  habitantes: 13414,
   listaSemanas: [{
     nombre: 'Campo de Criptana',
     provincia: 'Ciudad Real',
-    habitantes: 13.414,
+    habitantes: 13414,
     casosSemanaAnterior: 29,
     casosSemanaActual: 12,
     semanaAnterior: 34,
@@ -3235,11 +4523,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Campo de Criptana',
     provincia: 'Ciudad Real',
-    habitantes: 13.414,
+    habitantes: 13414,
     casosSemanaAnterior: 14,
     casosSemanaActual: 50,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Campo de Criptana',
+    provincia: 'Ciudad Real',
+    habitantes: 13414,
+    casosSemanaAnterior: 53,
+    casosSemanaActual: 55,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3247,6 +4543,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 50
+  }, {
+    semana: 37,
+    casos: 55
   }],
   lecturasAct: [{
     semana: 34,
@@ -3254,6 +4553,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 14
+  }, {
+    semana: 36,
+    casos: 53
   }]
 }, {
   nombre: 'Carrión de Calatrava',
@@ -3275,6 +4577,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Carrión de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 3082,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3282,6 +4592,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -3289,6 +4602,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 21
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Carrizosa',
@@ -3310,6 +4626,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Carrizosa',
+    provincia: 'Ciudad Real',
+    habitantes: 1212,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3317,6 +4641,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -3324,6 +4651,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Castellar de Santiago',
@@ -3345,6 +4675,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Castellar de Santiago',
+    provincia: 'Ciudad Real',
+    habitantes: 1897,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3352,6 +4690,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -3359,15 +4700,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Ciudad Real',
   provincia: 'Ciudad Real',
-  habitantes: 74.746,
+  habitantes: 74746,
   listaSemanas: [{
     nombre: 'Ciudad Real',
     provincia: 'Ciudad Real',
-    habitantes: 74.746,
+    habitantes: 74746,
     casosSemanaAnterior: 87,
     casosSemanaActual: 148,
     semanaAnterior: 34,
@@ -3375,11 +4719,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Ciudad Real',
     provincia: 'Ciudad Real',
-    habitantes: 74.746,
+    habitantes: 74746,
     casosSemanaAnterior: 162,
     casosSemanaActual: 172,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ciudad Real',
+    provincia: 'Ciudad Real',
+    habitantes: 74746,
+    casosSemanaAnterior: 207,
+    casosSemanaActual: 232,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3387,6 +4739,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 172
+  }, {
+    semana: 37,
+    casos: 232
   }],
   lecturasAct: [{
     semana: 34,
@@ -3394,6 +4749,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 162
+  }, {
+    semana: 36,
+    casos: 207
   }]
 }, {
   nombre: 'Corral de Calatrava',
@@ -3415,12 +4773,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Corral de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 1123,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -3429,6 +4798,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Chillón',
@@ -3450,6 +4822,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Chillón',
+    provincia: 'Ciudad Real',
+    habitantes: 1816,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3457,6 +4837,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -3464,15 +4847,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Daimiel',
   provincia: 'Ciudad Real',
-  habitantes: 17.929,
+  habitantes: 17929,
   listaSemanas: [{
     nombre: 'Daimiel',
     provincia: 'Ciudad Real',
-    habitantes: 17.929,
+    habitantes: 17929,
     casosSemanaAnterior: 2,
     casosSemanaActual: 13,
     semanaAnterior: 34,
@@ -3480,11 +4866,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Daimiel',
     provincia: 'Ciudad Real',
-    habitantes: 17.929,
+    habitantes: 17929,
     casosSemanaAnterior: 14,
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Daimiel',
+    provincia: 'Ciudad Real',
+    habitantes: 17929,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3492,6 +4886,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
@@ -3499,6 +4896,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 14
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Fernán Caballero',
@@ -3520,6 +4920,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fernán Caballero',
+    provincia: 'Ciudad Real',
+    habitantes: 1001,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3527,6 +4935,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -3534,6 +4945,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Fuencaliente',
@@ -3555,12 +4969,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuencaliente',
+    provincia: 'Ciudad Real',
+    habitantes: 1036,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 3
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -3569,6 +4994,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Fuente el Fresno',
@@ -3590,6 +5018,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuente el Fresno',
+    provincia: 'Ciudad Real',
+    habitantes: 3220,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3597,12 +5033,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 4
+  }, {
+    semana: 36,
     casos: 4
   }]
 }, {
@@ -3625,6 +5067,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 40,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Herencia',
+    provincia: 'Ciudad Real',
+    habitantes: 8390,
+    casosSemanaAnterior: 40,
+    casosSemanaActual: 19,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3632,6 +5082,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 40
+  }, {
+    semana: 37,
+    casos: 19
   }],
   lecturasAct: [{
     semana: 34,
@@ -3639,6 +5092,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 19
+  }, {
+    semana: 36,
+    casos: 40
   }]
 }, {
   nombre: 'Malagón',
@@ -3660,6 +5116,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 25,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Malagón',
+    provincia: 'Ciudad Real',
+    habitantes: 7998,
+    casosSemanaAnterior: 29,
+    casosSemanaActual: 9,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3667,6 +5131,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 25
+  }, {
+    semana: 37,
+    casos: 9
   }],
   lecturasAct: [{
     semana: 34,
@@ -3674,15 +5141,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 29
   }]
 }, {
   nombre: 'Manzanares',
   provincia: 'Ciudad Real',
-  habitantes: 17.997,
+  habitantes: 17997,
   listaSemanas: [{
     nombre: 'Manzanares',
     provincia: 'Ciudad Real',
-    habitantes: 17.997,
+    habitantes: 17997,
     casosSemanaAnterior: 11,
     casosSemanaActual: 17,
     semanaAnterior: 34,
@@ -3690,11 +5160,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Manzanares',
     provincia: 'Ciudad Real',
-    habitantes: 17.997,
+    habitantes: 17997,
     casosSemanaAnterior: 29,
     casosSemanaActual: 24,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Manzanares',
+    provincia: 'Ciudad Real',
+    habitantes: 17997,
+    casosSemanaAnterior: 27,
+    casosSemanaActual: 72,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3702,6 +5180,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 24
+  }, {
+    semana: 37,
+    casos: 72
   }],
   lecturasAct: [{
     semana: 34,
@@ -3709,6 +5190,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 29
+  }, {
+    semana: 36,
+    casos: 27
   }]
 }, {
   nombre: 'Membrilla',
@@ -3730,6 +5214,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Membrilla',
+    provincia: 'Ciudad Real',
+    habitantes: 6005,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3737,6 +5229,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -3744,15 +5239,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Miguelturra',
   provincia: 'Ciudad Real',
-  habitantes: 15.368,
+  habitantes: 15368,
   listaSemanas: [{
     nombre: 'Miguelturra',
     provincia: 'Ciudad Real',
-    habitantes: 15.368,
+    habitantes: 15368,
     casosSemanaAnterior: 12,
     casosSemanaActual: 10,
     semanaAnterior: 34,
@@ -3760,17 +5258,28 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Miguelturra',
     provincia: 'Ciudad Real',
-    habitantes: 15.368,
+    habitantes: 15368,
     casosSemanaAnterior: 14,
     casosSemanaActual: 22,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Miguelturra',
+    provincia: 'Ciudad Real',
+    habitantes: 15368,
+    casosSemanaAnterior: 35,
+    casosSemanaActual: 22,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 10
   }, {
     semana: 36,
+    casos: 22
+  }, {
+    semana: 37,
     casos: 22
   }],
   lecturasAct: [{
@@ -3779,6 +5288,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 14
+  }, {
+    semana: 36,
+    casos: 35
   }]
 }, {
   nombre: 'Montiel',
@@ -3800,6 +5312,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Montiel',
+    provincia: 'Ciudad Real',
+    habitantes: 1315,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3807,12 +5327,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 5
+  }, {
+    semana: 36,
     casos: 5
   }]
 }, {
@@ -3835,6 +5361,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Moral de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 5271,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3842,6 +5376,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -3849,6 +5386,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Pedro Muñoz',
@@ -3870,6 +5410,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pedro Muñoz',
+    provincia: 'Ciudad Real',
+    habitantes: 7293,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3877,6 +5425,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -3884,6 +5435,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Piedrabuena',
@@ -3905,6 +5459,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Piedrabuena',
+    provincia: 'Ciudad Real',
+    habitantes: 4395,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3912,6 +5474,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -3919,6 +5484,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Poblete',
@@ -3940,6 +5508,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Poblete',
+    provincia: 'Ciudad Real',
+    habitantes: 2626,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3947,12 +5523,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 3
+  }, {
+    semana: 36,
     casos: 3
   }]
 }, {
@@ -3975,6 +5557,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Porzuna',
+    provincia: 'Ciudad Real',
+    habitantes: 3532,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -3982,6 +5572,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -3989,6 +5582,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Pozuelo de Calatrava',
@@ -4010,6 +5606,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pozuelo de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 3553,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4017,6 +5621,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -4024,6 +5631,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Puebla de Don Rodrigo',
@@ -4045,6 +5655,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Puebla de Don Rodrigo',
+    provincia: 'Ciudad Real',
+    habitantes: 1178,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4052,6 +5670,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -4059,15 +5680,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Puertollano',
   provincia: 'Ciudad Real',
-  habitantes: 47.035,
+  habitantes: 47035,
   listaSemanas: [{
     nombre: 'Puertollano',
     provincia: 'Ciudad Real',
-    habitantes: 47.035,
+    habitantes: 47035,
     casosSemanaAnterior: 10,
     casosSemanaActual: 16,
     semanaAnterior: 34,
@@ -4075,11 +5699,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Puertollano',
     provincia: 'Ciudad Real',
-    habitantes: 47.035,
+    habitantes: 47035,
     casosSemanaAnterior: 17,
     casosSemanaActual: 25,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Puertollano',
+    provincia: 'Ciudad Real',
+    habitantes: 47035,
+    casosSemanaAnterior: 27,
+    casosSemanaActual: 47,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4087,6 +5719,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 25
+  }, {
+    semana: 37,
+    casos: 47
   }],
   lecturasAct: [{
     semana: 34,
@@ -4094,6 +5729,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 17
+  }, {
+    semana: 36,
+    casos: 27
   }]
 }, {
   nombre: 'San Carlos del Valle',
@@ -4115,6 +5753,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Carlos del Valle',
+    provincia: 'Ciudad Real',
+    habitantes: 1120,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4122,12 +5768,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -4150,6 +5802,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Santa Cruz de Mudela',
+    provincia: 'Ciudad Real',
+    habitantes: 4107,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4157,6 +5817,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -4164,15 +5827,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Socuéllamos',
   provincia: 'Ciudad Real',
-  habitantes: 12.139,
+  habitantes: 12139,
   listaSemanas: [{
     nombre: 'Socuéllamos',
     provincia: 'Ciudad Real',
-    habitantes: 12.139,
+    habitantes: 12139,
     casosSemanaAnterior: 4,
     casosSemanaActual: 6,
     semanaAnterior: 34,
@@ -4180,11 +5846,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Socuéllamos',
     provincia: 'Ciudad Real',
-    habitantes: 12.139,
+    habitantes: 12139,
     casosSemanaAnterior: 13,
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Socuéllamos',
+    provincia: 'Ciudad Real',
+    habitantes: 12139,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 12,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4192,6 +5866,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 12
   }],
   lecturasAct: [{
     semana: 34,
@@ -4199,15 +5876,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 13
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Solana (La)',
   provincia: 'Ciudad Real',
-  habitantes: 15.479,
+  habitantes: 15479,
   listaSemanas: [{
     nombre: 'Solana (La)',
     provincia: 'Ciudad Real',
-    habitantes: 15.479,
+    habitantes: 15479,
     casosSemanaAnterior: 22,
     casosSemanaActual: 12,
     semanaAnterior: 34,
@@ -4215,11 +5895,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Solana (La)',
     provincia: 'Ciudad Real',
-    habitantes: 15.479,
+    habitantes: 15479,
     casosSemanaAnterior: 16,
     casosSemanaActual: 22,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Solana (La)',
+    provincia: 'Ciudad Real',
+    habitantes: 15479,
+    casosSemanaAnterior: 26,
+    casosSemanaActual: 23,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4227,6 +5915,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 22
+  }, {
+    semana: 37,
+    casos: 23
   }],
   lecturasAct: [{
     semana: 34,
@@ -4234,15 +5925,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 16
+  }, {
+    semana: 36,
+    casos: 26
   }]
 }, {
   nombre: 'Tomelloso',
   provincia: 'Ciudad Real',
-  habitantes: 35.873,
+  habitantes: 35873,
   listaSemanas: [{
     nombre: 'Tomelloso',
     provincia: 'Ciudad Real',
-    habitantes: 35.873,
+    habitantes: 35873,
     casosSemanaAnterior: 29,
     casosSemanaActual: 32,
     semanaAnterior: 34,
@@ -4250,11 +5944,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Tomelloso',
     provincia: 'Ciudad Real',
-    habitantes: 35.873,
+    habitantes: 35873,
     casosSemanaAnterior: 51,
     casosSemanaActual: 40,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tomelloso',
+    provincia: 'Ciudad Real',
+    habitantes: 35873,
+    casosSemanaAnterior: 54,
+    casosSemanaActual: 57,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4262,6 +5964,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 40
+  }, {
+    semana: 37,
+    casos: 57
   }],
   lecturasAct: [{
     semana: 34,
@@ -4269,6 +5974,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 51
+  }, {
+    semana: 36,
+    casos: 54
   }]
 }, {
   nombre: 'Torralba de Calatrava',
@@ -4290,6 +5998,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torralba de Calatrava',
+    provincia: 'Ciudad Real',
+    habitantes: 2977,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4297,6 +6013,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -4304,6 +6023,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Torrenueva',
@@ -4325,6 +6047,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torrenueva',
+    provincia: 'Ciudad Real',
+    habitantes: 2702,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4332,6 +6062,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -4339,15 +6072,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Valdepeñas',
   provincia: 'Ciudad Real',
-  habitantes: 30.077,
+  habitantes: 30077,
   listaSemanas: [{
     nombre: 'Valdepeñas',
     provincia: 'Ciudad Real',
-    habitantes: 30.077,
+    habitantes: 30077,
     casosSemanaAnterior: 23,
     casosSemanaActual: 26,
     semanaAnterior: 34,
@@ -4355,11 +6091,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Valdepeñas',
     provincia: 'Ciudad Real',
-    habitantes: 30.077,
+    habitantes: 30077,
     casosSemanaAnterior: 28,
     casosSemanaActual: 36,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valdepeñas',
+    provincia: 'Ciudad Real',
+    habitantes: 30077,
+    casosSemanaAnterior: 38,
+    casosSemanaActual: 23,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4367,6 +6111,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 36
+  }, {
+    semana: 37,
+    casos: 23
   }],
   lecturasAct: [{
     semana: 34,
@@ -4374,6 +6121,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 28
+  }, {
+    semana: 36,
+    casos: 38
   }]
 }, {
   nombre: 'Villahermosa',
@@ -4395,6 +6145,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villahermosa',
+    provincia: 'Ciudad Real',
+    habitantes: 1826,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 23,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4402,6 +6160,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 23
   }],
   lecturasAct: [{
     semana: 34,
@@ -4409,6 +6170,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Villamanrique',
@@ -4430,6 +6194,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villamanrique',
+    provincia: 'Ciudad Real',
+    habitantes: 1148,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4437,6 +6209,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -4444,6 +6219,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Villanueva de la Fuente',
@@ -4465,6 +6243,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villanueva de la Fuente',
+    provincia: 'Ciudad Real',
+    habitantes: 2078,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4472,12 +6258,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -4500,6 +6292,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villanueva de los Infantes',
+    provincia: 'Ciudad Real',
+    habitantes: 4935,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4507,6 +6307,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -4514,6 +6317,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Villarrubia de los Ojos',
@@ -4535,6 +6341,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 14,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villarrubia de los Ojos',
+    provincia: 'Ciudad Real',
+    habitantes: 9814,
+    casosSemanaAnterior: 21,
+    casosSemanaActual: 43,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4542,6 +6356,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 14
+  }, {
+    semana: 37,
+    casos: 43
   }],
   lecturasAct: [{
     semana: 34,
@@ -4549,6 +6366,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 27
+  }, {
+    semana: 36,
+    casos: 21
   }]
 }, {
   nombre: 'Villarta de San Juan',
@@ -4570,6 +6390,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villarta de San Juan',
+    provincia: 'Ciudad Real',
+    habitantes: 2791,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4577,12 +6405,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 2
+  }, {
+    semana: 36,
     casos: 2
   }]
 }, {
@@ -4605,6 +6439,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Viso del Marqués',
+    provincia: 'Ciudad Real',
+    habitantes: 2298,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4612,12 +6454,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -4640,12 +6488,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Robledo (El)',
+    provincia: 'Ciudad Real',
+    habitantes: 1081,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 1
+  }, {
+    semana: 37,
     casos: 1
   }],
   lecturasAct: [{
@@ -4654,6 +6513,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Almoguera',
@@ -4675,6 +6537,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almoguera',
+    provincia: 'Guadalajara',
+    habitantes: 1289,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4682,6 +6552,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -4689,15 +6562,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Alovera',
   provincia: 'Guadalajara',
-  habitantes: 12.735,
+  habitantes: 12735,
   listaSemanas: [{
     nombre: 'Alovera',
     provincia: 'Guadalajara',
-    habitantes: 12.735,
+    habitantes: 12735,
     casosSemanaAnterior: 18,
     casosSemanaActual: 4,
     semanaAnterior: 34,
@@ -4705,11 +6581,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Alovera',
     provincia: 'Guadalajara',
-    habitantes: 12.735,
+    habitantes: 12735,
     casosSemanaAnterior: 7,
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alovera',
+    provincia: 'Guadalajara',
+    habitantes: 12735,
+    casosSemanaAnterior: 18,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4717,6 +6601,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -4724,15 +6611,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 18
   }]
 }, {
   nombre: 'Azuqueca de Henares',
   provincia: 'Guadalajara',
-  habitantes: 35.009,
+  habitantes: 35009,
   listaSemanas: [{
     nombre: 'Azuqueca de Henares',
     provincia: 'Guadalajara',
-    habitantes: 35.009,
+    habitantes: 35009,
     casosSemanaAnterior: 50,
     casosSemanaActual: 23,
     semanaAnterior: 34,
@@ -4740,11 +6630,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Azuqueca de Henares',
     provincia: 'Guadalajara',
-    habitantes: 35.009,
+    habitantes: 35009,
     casosSemanaAnterior: 30,
     casosSemanaActual: 16,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Azuqueca de Henares',
+    provincia: 'Guadalajara',
+    habitantes: 35009,
+    casosSemanaAnterior: 68,
+    casosSemanaActual: 92,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4752,6 +6650,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 16
+  }, {
+    semana: 37,
+    casos: 92
   }],
   lecturasAct: [{
     semana: 34,
@@ -4759,6 +6660,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 30
+  }, {
+    semana: 36,
+    casos: 68
   }]
 }, {
   nombre: 'Brihuega',
@@ -4780,6 +6684,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Brihuega',
+    provincia: 'Guadalajara',
+    habitantes: 2410,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4787,6 +6699,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -4794,15 +6709,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Cabanillas del Campo',
   provincia: 'Guadalajara',
-  habitantes: 10.442,
+  habitantes: 10442,
   listaSemanas: [{
     nombre: 'Cabanillas del Campo',
     provincia: 'Guadalajara',
-    habitantes: 10.442,
+    habitantes: 10442,
     casosSemanaAnterior: 7,
     casosSemanaActual: 4,
     semanaAnterior: 34,
@@ -4810,11 +6728,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Cabanillas del Campo',
     provincia: 'Guadalajara',
-    habitantes: 10.442,
+    habitantes: 10442,
     casosSemanaAnterior: 13,
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cabanillas del Campo',
+    provincia: 'Guadalajara',
+    habitantes: 10442,
+    casosSemanaAnterior: 17,
+    casosSemanaActual: 19,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4822,6 +6748,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 19
   }],
   lecturasAct: [{
     semana: 34,
@@ -4829,15 +6758,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 13
+  }, {
+    semana: 36,
+    casos: 17
   }]
 }, {
   nombre: 'Casar (El)',
   provincia: 'Guadalajara',
-  habitantes: 12.062,
+  habitantes: 12062,
   listaSemanas: [{
     nombre: 'Casar (El)',
     provincia: 'Guadalajara',
-    habitantes: 12.062,
+    habitantes: 12062,
     casosSemanaAnterior: 12,
     casosSemanaActual: 2,
     semanaAnterior: 34,
@@ -4845,11 +6777,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Casar (El)',
     provincia: 'Guadalajara',
-    habitantes: 12.062,
+    habitantes: 12062,
     casosSemanaAnterior: 3,
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casar (El)',
+    provincia: 'Guadalajara',
+    habitantes: 12062,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4857,6 +6797,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -4864,6 +6807,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Cifuentes',
@@ -4885,6 +6831,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cifuentes',
+    provincia: 'Guadalajara',
+    habitantes: 1645,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4892,12 +6846,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -4920,6 +6880,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Chiloeches',
+    provincia: 'Guadalajara',
+    habitantes: 3579,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4927,6 +6895,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
@@ -4934,6 +6905,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Fontanar',
@@ -4955,6 +6929,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fontanar',
+    provincia: 'Guadalajara',
+    habitantes: 2370,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4962,6 +6944,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -4969,6 +6954,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Galápagos',
@@ -4990,6 +6978,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Galápagos',
+    provincia: 'Guadalajara',
+    habitantes: 2403,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -4997,6 +6993,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -5004,15 +7003,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Guadalajara',
   provincia: 'Guadalajara',
-  habitantes: 85.871,
+  habitantes: 85871,
   listaSemanas: [{
     nombre: 'Guadalajara',
     provincia: 'Guadalajara',
-    habitantes: 85.871,
+    habitantes: 85871,
     casosSemanaAnterior: 125,
     casosSemanaActual: 89,
     semanaAnterior: 34,
@@ -5020,11 +7022,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Guadalajara',
     provincia: 'Guadalajara',
-    habitantes: 85.871,
+    habitantes: 85871,
     casosSemanaAnterior: 135,
     casosSemanaActual: 80,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Guadalajara',
+    provincia: 'Guadalajara',
+    habitantes: 85871,
+    casosSemanaAnterior: 260,
+    casosSemanaActual: 295,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5032,6 +7042,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 80
+  }, {
+    semana: 37,
+    casos: 295
   }],
   lecturasAct: [{
     semana: 34,
@@ -5039,6 +7052,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 135
+  }, {
+    semana: 36,
+    casos: 260
   }]
 }, {
   nombre: 'Horche',
@@ -5060,6 +7076,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Horche',
+    provincia: 'Guadalajara',
+    habitantes: 2535,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5067,6 +7091,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
@@ -5074,6 +7101,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Humanes',
@@ -5095,12 +7125,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Humanes',
+    provincia: 'Guadalajara',
+    habitantes: 1496,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -5109,6 +7150,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Jadraque',
@@ -5130,12 +7174,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Jadraque',
+    provincia: 'Guadalajara',
+    habitantes: 1413,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 10
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -5144,6 +7199,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 10
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Loranca de Tajuña',
@@ -5165,6 +7223,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Loranca de Tajuña',
+    provincia: 'Guadalajara',
+    habitantes: 1249,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5172,6 +7238,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -5179,6 +7248,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Marchamalo',
@@ -5200,6 +7272,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 17,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Marchamalo',
+    provincia: 'Guadalajara',
+    habitantes: 7474,
+    casosSemanaAnterior: 24,
+    casosSemanaActual: 12,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5207,6 +7287,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 17
+  }, {
+    semana: 37,
+    casos: 12
   }],
   lecturasAct: [{
     semana: 34,
@@ -5214,6 +7297,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 30
+  }, {
+    semana: 36,
+    casos: 24
   }]
 }, {
   nombre: 'Molina de Aragón',
@@ -5235,6 +7321,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Molina de Aragón',
+    provincia: 'Guadalajara',
+    habitantes: 3275,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5242,6 +7336,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -5249,6 +7346,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Mondéjar',
@@ -5270,6 +7370,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mondéjar',
+    provincia: 'Guadalajara',
+    habitantes: 2645,
+    casosSemanaAnterior: 23,
+    casosSemanaActual: 12,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5277,6 +7385,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 12
   }],
   lecturasAct: [{
     semana: 34,
@@ -5284,6 +7395,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 23
   }]
 }, {
   nombre: 'Pioz',
@@ -5305,12 +7419,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pioz',
+    provincia: 'Guadalajara',
+    habitantes: 4052,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 1
+  }, {
+    semana: 37,
     casos: 1
   }],
   lecturasAct: [{
@@ -5319,6 +7444,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Pozo de Guadalajara',
@@ -5340,6 +7468,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pozo de Guadalajara',
+    provincia: 'Guadalajara',
+    habitantes: 1303,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5347,12 +7483,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -5375,6 +7517,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Sacedón',
+    provincia: 'Guadalajara',
+    habitantes: 1533,
+    casosSemanaAnterior: 10,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5382,6 +7532,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -5389,6 +7542,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 10
   }]
 }, {
   nombre: 'Sigüenza',
@@ -5410,6 +7566,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Sigüenza',
+    provincia: 'Guadalajara',
+    habitantes: 4309,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5417,6 +7581,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
@@ -5424,6 +7591,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Torija',
@@ -5445,6 +7615,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torija',
+    provincia: 'Guadalajara',
+    habitantes: 1448,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5452,6 +7630,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -5459,6 +7640,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Torrejón del Rey',
@@ -5480,6 +7664,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torrejón del Rey',
+    provincia: 'Guadalajara',
+    habitantes: 5434,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5487,6 +7679,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -5494,6 +7689,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Tórtola de Henares',
@@ -5515,6 +7713,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tórtola de Henares',
+    provincia: 'Guadalajara',
+    habitantes: 1044,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5522,12 +7728,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -5550,6 +7762,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Trijueque',
+    provincia: 'Guadalajara',
+    habitantes: 1201,
+    casosSemanaAnterior: 10,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5557,6 +7777,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -5564,6 +7787,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 10
   }]
 }, {
   nombre: 'Trillo',
@@ -5585,12 +7811,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Trillo',
+    provincia: 'Guadalajara',
+    habitantes: 1319,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -5599,6 +7836,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Uceda',
@@ -5620,12 +7860,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Uceda',
+    provincia: 'Guadalajara',
+    habitantes: 2616,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -5634,6 +7885,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Valdeaveruelo',
@@ -5655,12 +7909,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valdeaveruelo',
+    provincia: 'Guadalajara',
+    habitantes: 1072,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -5669,6 +7934,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Villanueva de la Torre',
@@ -5690,6 +7958,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villanueva de la Torre',
+    provincia: 'Guadalajara',
+    habitantes: 6573,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5697,12 +7973,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
     casos: 7
   }, {
     semana: 35,
+    casos: 8
+  }, {
+    semana: 36,
     casos: 8
   }]
 }, {
@@ -5725,6 +8007,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yebes',
+    provincia: 'Guadalajara',
+    habitantes: 3791,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5732,6 +8022,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -5739,6 +8032,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Yunquera de Henares',
@@ -5760,6 +8056,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yunquera de Henares',
+    provincia: 'Guadalajara',
+    habitantes: 4044,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 11,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5767,6 +8071,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 11
   }],
   lecturasAct: [{
     semana: 34,
@@ -5774,6 +8081,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Ajofrín',
@@ -5795,6 +8105,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ajofrín',
+    provincia: 'Toledo',
+    habitantes: 2264,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5802,6 +8120,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -5809,6 +8130,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Alameda de la Sagra',
@@ -5830,6 +8154,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alameda de la Sagra',
+    provincia: 'Toledo',
+    habitantes: 3623,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5837,12 +8169,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -5865,6 +8203,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Alcaudete de la Jara',
+    provincia: 'Toledo',
+    habitantes: 1648,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5872,6 +8218,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -5879,6 +8228,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Almorox',
@@ -5900,6 +8252,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Almorox',
+    provincia: 'Toledo',
+    habitantes: 2105,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5907,6 +8267,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -5914,6 +8277,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Añover de Tajo',
@@ -5935,12 +8301,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Añover de Tajo',
+    provincia: 'Toledo',
+    habitantes: 5154,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 1
+  }, {
+    semana: 37,
     casos: 1
   }],
   lecturasAct: [{
@@ -5949,6 +8326,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Argés',
@@ -5970,6 +8350,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Argés',
+    provincia: 'Toledo',
+    habitantes: 6418,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -5977,6 +8365,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -5984,15 +8375,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Bargas',
   provincia: 'Toledo',
-  habitantes: 10.332,
+  habitantes: 10332,
   listaSemanas: [{
     nombre: 'Bargas',
     provincia: 'Toledo',
-    habitantes: 10.332,
+    habitantes: 10332,
     casosSemanaAnterior: 7,
     casosSemanaActual: 6,
     semanaAnterior: 34,
@@ -6000,11 +8394,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Bargas',
     provincia: 'Toledo',
-    habitantes: 10.332,
+    habitantes: 10332,
     casosSemanaAnterior: 6,
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Bargas',
+    provincia: 'Toledo',
+    habitantes: 10332,
+    casosSemanaAnterior: 21,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6012,6 +8414,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -6019,6 +8424,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 21
   }]
 }, {
   nombre: 'Belvís de la Jara',
@@ -6040,6 +8448,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Belvís de la Jara',
+    provincia: 'Toledo',
+    habitantes: 1522,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6047,6 +8463,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -6054,6 +8473,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Borox',
@@ -6075,6 +8497,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Borox',
+    provincia: 'Toledo',
+    habitantes: 3825,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6082,6 +8512,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -6089,6 +8522,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Burguillos de Toledo',
@@ -6110,12 +8546,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Burguillos de Toledo',
+    provincia: 'Toledo',
+    habitantes: 3172,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 2
+  }, {
+    semana: 37,
     casos: 2
   }],
   lecturasAct: [{
@@ -6124,6 +8571,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Burujón',
@@ -6145,6 +8595,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Burujón',
+    provincia: 'Toledo',
+    habitantes: 1319,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6152,12 +8610,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -6180,12 +8644,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cabañas de la Sagra',
+    provincia: 'Toledo',
+    habitantes: 1799,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 5
+  }, {
+    semana: 37,
     casos: 5
   }],
   lecturasAct: [{
@@ -6194,6 +8669,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Calera y Chozas',
@@ -6215,6 +8693,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Calera y Chozas',
+    provincia: 'Toledo',
+    habitantes: 4646,
+    casosSemanaAnterior: 12,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6222,12 +8708,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
     casos: 5
   }, {
     semana: 35,
+    casos: 12
+  }, {
+    semana: 36,
     casos: 12
   }]
 }, {
@@ -6250,6 +8742,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 14,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Camarena',
+    provincia: 'Toledo',
+    habitantes: 3960,
+    casosSemanaAnterior: 15,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6257,6 +8757,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 14
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -6264,6 +8767,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 9
+  }, {
+    semana: 36,
+    casos: 15
   }]
 }, {
   nombre: 'Camuñas',
@@ -6285,6 +8791,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Camuñas',
+    provincia: 'Toledo',
+    habitantes: 1726,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6292,6 +8806,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
@@ -6299,6 +8816,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Carpio de Tajo (El)',
@@ -6320,6 +8840,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Carpio de Tajo (El)',
+    provincia: 'Toledo',
+    habitantes: 1838,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6327,6 +8855,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -6334,6 +8865,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Carranque',
@@ -6355,6 +8889,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Carranque',
+    provincia: 'Toledo',
+    habitantes: 4846,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6362,6 +8904,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -6369,6 +8914,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Casar de Escalona (El)',
@@ -6390,6 +8938,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 19,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casar de Escalona (El)',
+    provincia: 'Toledo',
+    habitantes: 1725,
+    casosSemanaAnterior: 25,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6397,6 +8953,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 19
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -6404,6 +8963,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 25
   }]
 }, {
   nombre: 'Casarrubios del Monte',
@@ -6425,6 +8987,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Casarrubios del Monte',
+    provincia: 'Toledo',
+    habitantes: 5681,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6432,6 +9002,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
@@ -6439,6 +9012,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Cazalegas',
@@ -6460,6 +9036,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cazalegas',
+    provincia: 'Toledo',
+    habitantes: 1750,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6467,6 +9051,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -6474,6 +9061,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Cebolla',
@@ -6495,6 +9085,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cebolla',
+    provincia: 'Toledo',
+    habitantes: 3235,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 24,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6502,6 +9100,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 24
   }],
   lecturasAct: [{
     semana: 34,
@@ -6509,6 +9110,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 10
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Cedillo del Condado',
@@ -6530,6 +9134,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cedillo del Condado',
+    provincia: 'Toledo',
+    habitantes: 3762,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6537,6 +9149,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
@@ -6544,6 +9159,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Cobeja',
@@ -6565,6 +9183,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cobeja',
+    provincia: 'Toledo',
+    habitantes: 2255,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6572,6 +9198,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -6579,6 +9208,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Cobisa',
@@ -6600,6 +9232,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cobisa',
+    provincia: 'Toledo',
+    habitantes: 4310,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6607,6 +9247,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -6614,6 +9257,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Consuegra',
@@ -6635,6 +9281,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Consuegra',
+    provincia: 'Toledo',
+    habitantes: 9998,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 16,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6642,6 +9296,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 16
   }],
   lecturasAct: [{
     semana: 34,
@@ -6649,6 +9306,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 37
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Corral de Almaguer',
@@ -6670,6 +9330,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Corral de Almaguer',
+    provincia: 'Toledo',
+    habitantes: 5352,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6677,6 +9345,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -6684,6 +9355,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 13
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Cuerva',
@@ -6705,12 +9379,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Cuerva',
+    provincia: 'Toledo',
+    habitantes: 1291,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 0
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -6719,6 +9404,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Chozas de Canales',
@@ -6740,6 +9428,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Chozas de Canales',
+    provincia: 'Toledo',
+    habitantes: 3966,
+    casosSemanaAnterior: 10,
+    casosSemanaActual: 9,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6747,12 +9443,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 9
   }],
   lecturasAct: [{
     semana: 34,
     casos: 13
   }, {
     semana: 35,
+    casos: 10
+  }, {
+    semana: 36,
     casos: 10
   }]
 }, {
@@ -6775,6 +9477,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Dosbarrios',
+    provincia: 'Toledo',
+    habitantes: 2223,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6782,12 +9492,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 2
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -6810,6 +9526,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Escalona',
+    provincia: 'Toledo',
+    habitantes: 3241,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6817,6 +9541,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
@@ -6824,6 +9551,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Escalonilla',
@@ -6845,6 +9575,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Escalonilla',
+    provincia: 'Toledo',
+    habitantes: 1427,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6852,12 +9590,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 3
+  }, {
+    semana: 36,
     casos: 3
   }]
 }, {
@@ -6880,6 +9624,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Esquivias',
+    provincia: 'Toledo',
+    habitantes: 5549,
+    casosSemanaAnterior: 12,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6887,6 +9639,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -6894,15 +9649,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 12
   }]
 }, {
   nombre: 'Fuensalida',
   provincia: 'Toledo',
-  habitantes: 11.37,
+  habitantes: 11370,
   listaSemanas: [{
     nombre: 'Fuensalida',
     provincia: 'Toledo',
-    habitantes: 11.37,
+    habitantes: 11370,
     casosSemanaAnterior: 27,
     casosSemanaActual: 22,
     semanaAnterior: 34,
@@ -6910,11 +9668,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Fuensalida',
     provincia: 'Toledo',
-    habitantes: 11.37,
+    habitantes: 11370,
     casosSemanaAnterior: 22,
     casosSemanaActual: 28,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Fuensalida',
+    provincia: 'Toledo',
+    habitantes: 11370,
+    casosSemanaAnterior: 28,
+    casosSemanaActual: 18,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6922,6 +9688,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 28
+  }, {
+    semana: 37,
+    casos: 18
   }],
   lecturasAct: [{
     semana: 34,
@@ -6929,6 +9698,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 22
+  }, {
+    semana: 36,
+    casos: 28
   }]
 }, {
   nombre: 'Gálvez',
@@ -6950,6 +9722,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Gálvez',
+    provincia: 'Toledo',
+    habitantes: 3016,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6957,6 +9737,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -6964,6 +9747,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Gerindote',
@@ -6985,6 +9771,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Gerindote',
+    provincia: 'Toledo',
+    habitantes: 2300,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -6992,6 +9786,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -6999,6 +9796,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Guadamur',
@@ -7020,12 +9820,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Guadamur',
+    provincia: 'Toledo',
+    habitantes: 1792,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -7034,6 +9845,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Guardia (La)',
@@ -7055,6 +9869,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Guardia (La)',
+    provincia: 'Toledo',
+    habitantes: 2246,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7062,6 +9884,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -7069,6 +9894,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Huerta de Valdecarábanos',
@@ -7090,6 +9918,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Huerta de Valdecarábanos',
+    provincia: 'Toledo',
+    habitantes: 1649,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7097,6 +9933,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -7104,15 +9943,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Illescas',
   provincia: 'Toledo',
-  habitantes: 28.894,
+  habitantes: 28894,
   listaSemanas: [{
     nombre: 'Illescas',
     provincia: 'Toledo',
-    habitantes: 28.894,
+    habitantes: 28894,
     casosSemanaAnterior: 40,
     casosSemanaActual: 48,
     semanaAnterior: 34,
@@ -7120,11 +9962,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Illescas',
     provincia: 'Toledo',
-    habitantes: 28.894,
+    habitantes: 28894,
     casosSemanaAnterior: 62,
     casosSemanaActual: 75,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Illescas',
+    provincia: 'Toledo',
+    habitantes: 28894,
+    casosSemanaAnterior: 80,
+    casosSemanaActual: 113,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7132,6 +9982,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 75
+  }, {
+    semana: 37,
+    casos: 113
   }],
   lecturasAct: [{
     semana: 34,
@@ -7139,6 +9992,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 62
+  }, {
+    semana: 36,
+    casos: 80
   }]
 }, {
   nombre: 'Lagartera',
@@ -7160,6 +10016,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Lagartera',
+    provincia: 'Toledo',
+    habitantes: 1369,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7167,6 +10031,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -7174,6 +10041,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 14
   }]
 }, {
   nombre: 'Lillo',
@@ -7195,6 +10065,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Lillo',
+    provincia: 'Toledo',
+    habitantes: 2577,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7202,12 +10080,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 1
+  }, {
+    semana: 36,
     casos: 1
   }]
 }, {
@@ -7230,6 +10114,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Lominchar',
+    provincia: 'Toledo',
+    habitantes: 2387,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7237,6 +10129,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -7244,15 +10139,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Madridejos',
   provincia: 'Toledo',
-  habitantes: 10.453,
+  habitantes: 10453,
   listaSemanas: [{
     nombre: 'Madridejos',
     provincia: 'Toledo',
-    habitantes: 10.453,
+    habitantes: 10453,
     casosSemanaAnterior: 11,
     casosSemanaActual: 12,
     semanaAnterior: 34,
@@ -7260,11 +10158,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Madridejos',
     provincia: 'Toledo',
-    habitantes: 10.453,
+    habitantes: 10453,
     casosSemanaAnterior: 12,
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Madridejos',
+    provincia: 'Toledo',
+    habitantes: 10453,
+    casosSemanaAnterior: 13,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7272,6 +10178,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -7279,6 +10188,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 12
+  }, {
+    semana: 36,
+    casos: 13
   }]
 }, {
   nombre: 'Magán',
@@ -7300,12 +10212,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Magán',
+    provincia: 'Toledo',
+    habitantes: 3544,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -7314,6 +10237,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Malpica de Tajo',
@@ -7335,6 +10261,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 23,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Malpica de Tajo',
+    provincia: 'Toledo',
+    habitantes: 1705,
+    casosSemanaAnterior: 29,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7342,6 +10276,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 23
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -7349,6 +10286,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 11
+  }, {
+    semana: 36,
+    casos: 29
   }]
 }, {
   nombre: 'Mazarambroz',
@@ -7370,6 +10310,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mazarambroz',
+    provincia: 'Toledo',
+    habitantes: 1241,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7377,12 +10325,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 0
   }, {
     semana: 35,
+    casos: 0
+  }, {
+    semana: 36,
     casos: 0
   }]
 }, {
@@ -7405,6 +10359,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mejorada',
+    provincia: 'Toledo',
+    habitantes: 1275,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7412,6 +10374,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
@@ -7419,6 +10384,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Menasalbas',
@@ -7440,6 +10408,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Menasalbas',
+    provincia: 'Toledo',
+    habitantes: 2651,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7447,6 +10423,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -7454,6 +10433,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Méntrida',
@@ -7475,6 +10457,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Méntrida',
+    provincia: 'Toledo',
+    habitantes: 5099,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 13,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7482,6 +10472,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 13
   }],
   lecturasAct: [{
     semana: 34,
@@ -7489,6 +10482,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Miguel Esteban',
@@ -7510,6 +10506,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Miguel Esteban',
+    provincia: 'Toledo',
+    habitantes: 4856,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7517,6 +10521,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
@@ -7524,6 +10531,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Mocejón',
@@ -7545,6 +10555,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mocejón',
+    provincia: 'Toledo',
+    habitantes: 4875,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7552,6 +10570,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -7559,6 +10580,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Mora',
@@ -7580,6 +10604,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 22,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Mora',
+    provincia: 'Toledo',
+    habitantes: 9718,
+    casosSemanaAnterior: 22,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7587,6 +10619,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 22
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
@@ -7594,6 +10629,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 24
+  }, {
+    semana: 36,
+    casos: 22
   }]
 }, {
   nombre: 'Nambroca',
@@ -7615,6 +10653,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Nambroca',
+    provincia: 'Toledo',
+    habitantes: 4732,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7622,6 +10668,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -7629,6 +10678,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Navahermosa',
@@ -7650,6 +10702,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Navahermosa',
+    provincia: 'Toledo',
+    habitantes: 3609,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7657,6 +10717,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -7664,6 +10727,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Navalcán',
@@ -7685,6 +10751,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Navalcán',
+    provincia: 'Toledo',
+    habitantes: 1985,
+    casosSemanaAnterior: 11,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7692,6 +10766,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -7699,6 +10776,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 11
   }]
 }, {
   nombre: 'Navalmorales (Los)',
@@ -7720,12 +10800,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Navalmorales (Los)',
+    provincia: 'Toledo',
+    habitantes: 2518,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 5
+  }, {
+    semana: 37,
     casos: 5
   }],
   lecturasAct: [{
@@ -7734,6 +10825,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Navalucillos (Los)',
@@ -7755,6 +10849,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Navalucillos (Los)',
+    provincia: 'Toledo',
+    habitantes: 2106,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7762,6 +10864,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -7769,6 +10874,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Noblejas',
@@ -7790,6 +10898,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Noblejas',
+    provincia: 'Toledo',
+    habitantes: 3585,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7797,12 +10913,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
     casos: 1
   }, {
     semana: 35,
+    casos: 2
+  }, {
+    semana: 36,
     casos: 2
   }]
 }, {
@@ -7825,6 +10947,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Novés',
+    provincia: 'Toledo',
+    habitantes: 2905,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7832,6 +10962,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -7839,6 +10972,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Numancia de la Sagra',
@@ -7860,6 +10996,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 12,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Numancia de la Sagra',
+    provincia: 'Toledo',
+    habitantes: 4902,
+    casosSemanaAnterior: 13,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7867,6 +11011,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 12
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -7874,15 +11021,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 12
+  }, {
+    semana: 36,
+    casos: 13
   }]
 }, {
   nombre: 'Ocaña',
   provincia: 'Toledo',
-  habitantes: 11.597,
+  habitantes: 11597,
   listaSemanas: [{
     nombre: 'Ocaña',
     provincia: 'Toledo',
-    habitantes: 11.597,
+    habitantes: 11597,
     casosSemanaAnterior: 5,
     casosSemanaActual: 6,
     semanaAnterior: 34,
@@ -7890,11 +11040,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Ocaña',
     provincia: 'Toledo',
-    habitantes: 11.597,
+    habitantes: 11597,
     casosSemanaAnterior: 6,
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ocaña',
+    provincia: 'Toledo',
+    habitantes: 11597,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7902,6 +11060,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -7909,6 +11070,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Olías del Rey',
@@ -7930,6 +11094,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Olías del Rey',
+    provincia: 'Toledo',
+    habitantes: 7880,
+    casosSemanaAnterior: 9,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -7937,6 +11109,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -7944,6 +11119,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 9
   }]
 }, {
   nombre: 'Ontígola',
@@ -7965,12 +11143,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ontígola',
+    provincia: 'Toledo',
+    habitantes: 4387,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -7979,6 +11168,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Orgaz',
@@ -8000,6 +11192,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 3,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Orgaz',
+    provincia: 'Toledo',
+    habitantes: 2602,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8007,6 +11207,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 3
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -8014,6 +11217,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Oropesa',
@@ -8035,12 +11241,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Oropesa',
+    provincia: 'Toledo',
+    habitantes: 2662,
+    casosSemanaAnterior: 15,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 2
   }, {
     semana: 36,
+    casos: 7
+  }, {
+    semana: 37,
     casos: 7
   }],
   lecturasAct: [{
@@ -8049,6 +11266,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 14
+  }, {
+    semana: 36,
+    casos: 15
   }]
 }, {
   nombre: 'Pantoja',
@@ -8070,6 +11290,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pantoja',
+    provincia: 'Toledo',
+    habitantes: 3317,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8077,6 +11305,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -8084,6 +11315,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Pepino',
@@ -8105,6 +11339,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pepino',
+    provincia: 'Toledo',
+    habitantes: 3055,
+    casosSemanaAnterior: 16,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8112,6 +11354,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -8119,6 +11364,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 16
   }]
 }, {
   nombre: 'Polán',
@@ -8140,12 +11388,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Polán',
+    provincia: 'Toledo',
+    habitantes: 3848,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 5
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -8154,6 +11413,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 5
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Portillo de Toledo',
@@ -8175,6 +11437,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Portillo de Toledo',
+    provincia: 'Toledo',
+    habitantes: 2209,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8182,12 +11452,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
     casos: 6
   }, {
     semana: 35,
+    casos: 1
+  }, {
+    semana: 36,
     casos: 1
   }]
 }, {
@@ -8210,6 +11486,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Puebla de Almoradiel ',
+    provincia: 'Toledo',
+    habitantes: 5168,
+    casosSemanaAnterior: 24,
+    casosSemanaActual: 16,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8217,6 +11501,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 16
   }],
   lecturasAct: [{
     semana: 34,
@@ -8224,6 +11511,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 24
   }]
 }, {
   nombre: 'Puebla de Montalbán ',
@@ -8245,6 +11535,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Puebla de Montalbán ',
+    provincia: 'Toledo',
+    habitantes: 7861,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 18,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8252,6 +11550,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 18
   }],
   lecturasAct: [{
     semana: 34,
@@ -8259,6 +11560,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 10
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Pueblanueva (La)',
@@ -8280,6 +11584,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pueblanueva (La)',
+    provincia: 'Toledo',
+    habitantes: 2140,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 14,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8287,6 +11599,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 14
   }],
   lecturasAct: [{
     semana: 34,
@@ -8294,6 +11609,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 14
   }]
 }, {
   nombre: 'Puente del Arzobispo ',
@@ -8315,6 +11633,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Puente del Arzobispo ',
+    provincia: 'Toledo',
+    habitantes: 1246,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8322,6 +11648,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -8329,6 +11658,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Pulgar',
@@ -8350,12 +11682,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Pulgar',
+    provincia: 'Toledo',
+    habitantes: 1508,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -8364,15 +11707,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Quintanar de la Orden',
   provincia: 'Toledo',
-  habitantes: 11.03,
+  habitantes: 11030,
   listaSemanas: [{
     nombre: 'Quintanar de la Orden',
     provincia: 'Toledo',
-    habitantes: 11.03,
+    habitantes: 11030,
     casosSemanaAnterior: 23,
     casosSemanaActual: 10,
     semanaAnterior: 34,
@@ -8380,11 +11726,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Quintanar de la Orden',
     provincia: 'Toledo',
-    habitantes: 11.03,
+    habitantes: 11030,
     casosSemanaAnterior: 20,
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Quintanar de la Orden',
+    provincia: 'Toledo',
+    habitantes: 11030,
+    casosSemanaAnterior: 22,
+    casosSemanaActual: 22,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8392,6 +11746,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 22
   }],
   lecturasAct: [{
     semana: 34,
@@ -8399,6 +11756,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 20
+  }, {
+    semana: 36,
+    casos: 22
   }]
 }, {
   nombre: 'Quismondo',
@@ -8420,6 +11780,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 5,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Quismondo',
+    provincia: 'Toledo',
+    habitantes: 1527,
+    casosSemanaAnterior: 13,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8427,6 +11795,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 5
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -8434,6 +11805,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 13
   }]
 }, {
   nombre: 'Recas',
@@ -8455,6 +11829,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Recas',
+    provincia: 'Toledo',
+    habitantes: 4262,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 9,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8462,6 +11844,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 9
   }],
   lecturasAct: [{
     semana: 34,
@@ -8469,6 +11854,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'San Pablo de los Montes',
@@ -8490,12 +11878,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Pablo de los Montes',
+    provincia: 'Toledo',
+    habitantes: 1768,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 5
   }, {
     semana: 36,
+    casos: 1
+  }, {
+    semana: 37,
     casos: 1
   }],
   lecturasAct: [{
@@ -8504,6 +11903,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'San Román de los Montes',
@@ -8525,12 +11927,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'San Román de los Montes',
+    provincia: 'Toledo',
+    habitantes: 1881,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 2
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -8539,6 +11952,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 6
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Santa Cruz de la Zarza',
@@ -8560,6 +11976,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Santa Cruz de la Zarza',
+    provincia: 'Toledo',
+    habitantes: 4129,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8567,6 +11991,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -8574,6 +12001,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Santa Cruz del Retamar',
@@ -8595,6 +12025,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Santa Cruz del Retamar',
+    provincia: 'Toledo',
+    habitantes: 3079,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8602,6 +12040,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -8609,6 +12050,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Santa Olalla',
@@ -8630,6 +12074,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 30,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Santa Olalla',
+    provincia: 'Toledo',
+    habitantes: 3251,
+    casosSemanaAnterior: 58,
+    casosSemanaActual: 62,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8637,6 +12089,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 30
+  }, {
+    semana: 37,
+    casos: 62
   }],
   lecturasAct: [{
     semana: 34,
@@ -8644,6 +12099,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 58
   }]
 }, {
   nombre: 'Segurilla',
@@ -8665,6 +12123,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Segurilla',
+    provincia: 'Toledo',
+    habitantes: 1324,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8672,6 +12138,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -8679,15 +12148,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Seseña',
   provincia: 'Toledo',
-  habitantes: 25.835,
+  habitantes: 25835,
   listaSemanas: [{
     nombre: 'Seseña',
     provincia: 'Toledo',
-    habitantes: 25.835,
+    habitantes: 25835,
     casosSemanaAnterior: 25,
     casosSemanaActual: 41,
     semanaAnterior: 34,
@@ -8695,11 +12167,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Seseña',
     provincia: 'Toledo',
-    habitantes: 25.835,
+    habitantes: 25835,
     casosSemanaAnterior: 46,
     casosSemanaActual: 17,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Seseña',
+    provincia: 'Toledo',
+    habitantes: 25835,
+    casosSemanaAnterior: 31,
+    casosSemanaActual: 36,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8707,6 +12187,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 17
+  }, {
+    semana: 37,
+    casos: 36
   }],
   lecturasAct: [{
     semana: 34,
@@ -8714,15 +12197,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 46
+  }, {
+    semana: 36,
+    casos: 31
   }]
 }, {
   nombre: 'Sonseca',
   provincia: 'Toledo',
-  habitantes: 11.067,
+  habitantes: 11067,
   listaSemanas: [{
     nombre: 'Sonseca',
     provincia: 'Toledo',
-    habitantes: 11.067,
+    habitantes: 11067,
     casosSemanaAnterior: 13,
     casosSemanaActual: 13,
     semanaAnterior: 34,
@@ -8730,11 +12216,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Sonseca',
     provincia: 'Toledo',
-    habitantes: 11.067,
+    habitantes: 11067,
     casosSemanaAnterior: 15,
     casosSemanaActual: 20,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Sonseca',
+    provincia: 'Toledo',
+    habitantes: 11067,
+    casosSemanaAnterior: 21,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8742,6 +12236,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 20
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
@@ -8749,15 +12246,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 15
+  }, {
+    semana: 36,
+    casos: 21
   }]
 }, {
   nombre: 'Talavera de la Reina',
   provincia: 'Toledo',
-  habitantes: 83.417,
+  habitantes: 83417,
   listaSemanas: [{
     nombre: 'Talavera de la Reina',
     provincia: 'Toledo',
-    habitantes: 83.417,
+    habitantes: 83417,
     casosSemanaAnterior: 94,
     casosSemanaActual: 70,
     semanaAnterior: 34,
@@ -8765,11 +12265,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Talavera de la Reina',
     provincia: 'Toledo',
-    habitantes: 83.417,
+    habitantes: 83417,
     casosSemanaAnterior: 196,
     casosSemanaActual: 201,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Talavera de la Reina',
+    provincia: 'Toledo',
+    habitantes: 83417,
+    casosSemanaAnterior: 350,
+    casosSemanaActual: 239,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8777,6 +12285,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 201
+  }, {
+    semana: 37,
+    casos: 239
   }],
   lecturasAct: [{
     semana: 34,
@@ -8784,6 +12295,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 196
+  }, {
+    semana: 36,
+    casos: 350
   }]
 }, {
   nombre: 'Tembleque',
@@ -8805,12 +12319,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Tembleque',
+    provincia: 'Toledo',
+    habitantes: 1986,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 3
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -8819,6 +12344,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Toboso (El)',
@@ -8840,6 +12368,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Toboso (El)',
+    provincia: 'Toledo',
+    habitantes: 1764,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8847,6 +12383,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -8854,15 +12393,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Toledo',
   provincia: 'Toledo',
-  habitantes: 84.873,
+  habitantes: 84873,
   listaSemanas: [{
     nombre: 'Toledo',
     provincia: 'Toledo',
-    habitantes: 84.873,
+    habitantes: 84873,
     casosSemanaAnterior: 139,
     casosSemanaActual: 156,
     semanaAnterior: 34,
@@ -8870,11 +12412,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Toledo',
     provincia: 'Toledo',
-    habitantes: 84.873,
+    habitantes: 84873,
     casosSemanaAnterior: 171,
     casosSemanaActual: 183,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Toledo',
+    provincia: 'Toledo',
+    habitantes: 84873,
+    casosSemanaAnterior: 196,
+    casosSemanaActual: 171,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8882,6 +12432,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 183
+  }, {
+    semana: 37,
+    casos: 171
   }],
   lecturasAct: [{
     semana: 34,
@@ -8889,6 +12442,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 171
+  }, {
+    semana: 36,
+    casos: 196
   }]
 }, {
   nombre: 'Torre de Esteban Hambrán (La)',
@@ -8910,6 +12466,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 7,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torre de Esteban Hambrán (La)',
+    provincia: 'Toledo',
+    habitantes: 1637,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8917,6 +12481,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 7
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -8924,15 +12491,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Torrijos',
   provincia: 'Toledo',
-  habitantes: 13.466,
+  habitantes: 13466,
   listaSemanas: [{
     nombre: 'Torrijos',
     provincia: 'Toledo',
-    habitantes: 13.466,
+    habitantes: 13466,
     casosSemanaAnterior: 11,
     casosSemanaActual: 24,
     semanaAnterior: 34,
@@ -8940,11 +12510,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Torrijos',
     provincia: 'Toledo',
-    habitantes: 13.466,
+    habitantes: 13466,
     casosSemanaAnterior: 25,
     casosSemanaActual: 42,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Torrijos',
+    provincia: 'Toledo',
+    habitantes: 13466,
+    casosSemanaAnterior: 43,
+    casosSemanaActual: 29,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8952,6 +12530,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 42
+  }, {
+    semana: 37,
+    casos: 29
   }],
   lecturasAct: [{
     semana: 34,
@@ -8959,6 +12540,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 25
+  }, {
+    semana: 36,
+    casos: 43
   }]
 }, {
   nombre: 'Ugena',
@@ -8980,6 +12564,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ugena',
+    provincia: 'Toledo',
+    habitantes: 5411,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 25,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -8987,6 +12579,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 25
   }],
   lecturasAct: [{
     semana: 34,
@@ -8994,6 +12589,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Urda',
@@ -9015,12 +12613,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Urda',
+    provincia: 'Toledo',
+    habitantes: 2529,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 8
+  }, {
+    semana: 37,
     casos: 8
   }],
   lecturasAct: [{
@@ -9029,6 +12638,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Valmojado',
@@ -9050,6 +12662,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 9,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Valmojado',
+    provincia: 'Toledo',
+    habitantes: 4303,
+    casosSemanaAnterior: 10,
+    casosSemanaActual: 17,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9057,6 +12677,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 9
+  }, {
+    semana: 37,
+    casos: 17
   }],
   lecturasAct: [{
     semana: 34,
@@ -9064,6 +12687,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 10
   }]
 }, {
   nombre: 'Velada',
@@ -9085,6 +12711,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Velada',
+    provincia: 'Toledo',
+    habitantes: 2910,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9092,6 +12726,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
@@ -9099,6 +12736,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Ventas con Peña Aguilera (Las)',
@@ -9120,12 +12760,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ventas con Peña Aguilera (Las)',
+    provincia: 'Toledo',
+    habitantes: 1109,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 3
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -9134,6 +12785,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Ventas de Retamosa ',
@@ -9155,6 +12809,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Ventas de Retamosa ',
+    provincia: 'Toledo',
+    habitantes: 3365,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 3,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9162,12 +12824,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 3
   }],
   lecturasAct: [{
     semana: 34,
     casos: 3
   }, {
     semana: 35,
+    casos: 1
+  }, {
+    semana: 36,
     casos: 1
   }]
 }, {
@@ -9190,6 +12858,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 16,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villacañas',
+    provincia: 'Toledo',
+    habitantes: 9548,
+    casosSemanaAnterior: 19,
+    casosSemanaActual: 4,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9197,6 +12873,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 16
+  }, {
+    semana: 37,
+    casos: 4
   }],
   lecturasAct: [{
     semana: 34,
@@ -9204,6 +12883,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 16
+  }, {
+    semana: 36,
+    casos: 19
   }]
 }, {
   nombre: 'Villa de Don Fadrique ',
@@ -9225,6 +12907,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 4,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villa de Don Fadrique ',
+    provincia: 'Toledo',
+    habitantes: 3664,
+    casosSemanaAnterior: 5,
+    casosSemanaActual: 8,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9232,6 +12922,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 4
+  }, {
+    semana: 37,
+    casos: 8
   }],
   lecturasAct: [{
     semana: 34,
@@ -9239,6 +12932,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 5
   }]
 }, {
   nombre: 'Villafranca de los Caballeros',
@@ -9260,6 +12956,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villafranca de los Caballeros',
+    provincia: 'Toledo',
+    habitantes: 4896,
+    casosSemanaAnterior: 8,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9267,6 +12971,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -9274,6 +12981,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 4
+  }, {
+    semana: 36,
+    casos: 8
   }]
 }, {
   nombre: 'Villaluenga de la Sagra',
@@ -9295,6 +13005,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villaluenga de la Sagra',
+    provincia: 'Toledo',
+    habitantes: 3815,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 10,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9302,12 +13020,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 10
   }],
   lecturasAct: [{
     semana: 34,
     casos: 3
   }, {
     semana: 35,
+    casos: 2
+  }, {
+    semana: 36,
     casos: 2
   }]
 }, {
@@ -9330,6 +13054,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villanueva de Alcardete',
+    provincia: 'Toledo',
+    habitantes: 3250,
+    casosSemanaAnterior: 3,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9337,6 +13069,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -9344,6 +13079,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 3
   }]
 }, {
   nombre: 'Villarrubia de Santiago',
@@ -9365,6 +13103,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 1,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villarrubia de Santiago',
+    provincia: 'Toledo',
+    habitantes: 2536,
+    casosSemanaAnterior: 1,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9372,6 +13118,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 1
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -9379,6 +13128,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 1
   }]
 }, {
   nombre: 'Villaseca de la Sagra',
@@ -9400,12 +13152,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villaseca de la Sagra',
+    provincia: 'Toledo',
+    habitantes: 1820,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 1
   }, {
     semana: 36,
+    casos: 0
+  }, {
+    semana: 37,
     casos: 0
   }],
   lecturasAct: [{
@@ -9414,6 +13177,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 1
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }, {
   nombre: 'Villasequilla',
@@ -9435,6 +13201,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villasequilla',
+    provincia: 'Toledo',
+    habitantes: 2478,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9442,6 +13216,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -9449,6 +13226,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 8
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Villatobas',
@@ -9470,6 +13250,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 2,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Villatobas',
+    provincia: 'Toledo',
+    habitantes: 2403,
+    casosSemanaAnterior: 2,
+    casosSemanaActual: 0,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9477,6 +13265,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 2
+  }, {
+    semana: 37,
+    casos: 0
   }],
   lecturasAct: [{
     semana: 34,
@@ -9484,6 +13275,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 7
+  }, {
+    semana: 36,
+    casos: 2
   }]
 }, {
   nombre: 'Viso de San Juan ',
@@ -9505,6 +13299,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 8,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Viso de San Juan ',
+    provincia: 'Toledo',
+    habitantes: 4416,
+    casosSemanaAnterior: 11,
+    casosSemanaActual: 7,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9512,12 +13314,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 8
+  }, {
+    semana: 37,
+    casos: 7
   }],
   lecturasAct: [{
     semana: 34,
     casos: 8
   }, {
     semana: 35,
+    casos: 11
+  }, {
+    semana: 36,
     casos: 11
   }]
 }, {
@@ -9540,6 +13348,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yébenes (Los)',
+    provincia: 'Toledo',
+    habitantes: 5901,
+    casosSemanaAnterior: 6,
+    casosSemanaActual: 5,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9547,6 +13363,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 6
+  }, {
+    semana: 37,
+    casos: 5
   }],
   lecturasAct: [{
     semana: 34,
@@ -9554,6 +13373,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 0
+  }, {
+    semana: 36,
+    casos: 6
   }]
 }, {
   nombre: 'Yeles',
@@ -9575,6 +13397,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 14,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yeles',
+    provincia: 'Toledo',
+    habitantes: 5329,
+    casosSemanaAnterior: 14,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9582,6 +13412,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 14
+  }, {
+    semana: 37,
+    casos: 6
   }],
   lecturasAct: [{
     semana: 34,
@@ -9589,6 +13422,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 17
+  }, {
+    semana: 36,
+    casos: 14
   }]
 }, {
   nombre: 'Yepes',
@@ -9610,6 +13446,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yepes',
+    provincia: 'Toledo',
+    habitantes: 5198,
+    casosSemanaAnterior: 4,
+    casosSemanaActual: 2,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9617,6 +13461,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 2
   }],
   lecturasAct: [{
     semana: 34,
@@ -9624,6 +13471,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 3
+  }, {
+    semana: 36,
+    casos: 4
   }]
 }, {
   nombre: 'Yuncler',
@@ -9645,12 +13495,23 @@ export const data: Localidad[] = [{
     casosSemanaActual: 6,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yuncler',
+    provincia: 'Toledo',
+    habitantes: 3940,
+    casosSemanaAnterior: 7,
+    casosSemanaActual: 6,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
     casos: 2
   }, {
     semana: 36,
+    casos: 6
+  }, {
+    semana: 37,
     casos: 6
   }],
   lecturasAct: [{
@@ -9659,15 +13520,18 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 7
   }]
 }, {
   nombre: 'Yuncos',
   provincia: 'Toledo',
-  habitantes: 11.222,
+  habitantes: 11222,
   listaSemanas: [{
     nombre: 'Yuncos',
     provincia: 'Toledo',
-    habitantes: 11.222,
+    habitantes: 11222,
     casosSemanaAnterior: 29,
     casosSemanaActual: 31,
     semanaAnterior: 34,
@@ -9675,11 +13539,19 @@ export const data: Localidad[] = [{
   }, {
     nombre: 'Yuncos',
     provincia: 'Toledo',
-    habitantes: 11.222,
+    habitantes: 11222,
     casosSemanaAnterior: 44,
     casosSemanaActual: 42,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Yuncos',
+    provincia: 'Toledo',
+    habitantes: 11222,
+    casosSemanaAnterior: 46,
+    casosSemanaActual: 77,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9687,6 +13559,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 42
+  }, {
+    semana: 37,
+    casos: 77
   }],
   lecturasAct: [{
     semana: 34,
@@ -9694,6 +13569,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 44
+  }, {
+    semana: 36,
+    casos: 46
   }]
 }, {
   nombre: 'Santo Domingo-Caudilla',
@@ -9715,6 +13593,14 @@ export const data: Localidad[] = [{
     casosSemanaActual: 0,
     semanaAnterior: 35,
     semanaActual: 36
+  }, {
+    nombre: 'Santo Domingo-Caudilla',
+    provincia: 'Toledo',
+    habitantes: 1038,
+    casosSemanaAnterior: 0,
+    casosSemanaActual: 1,
+    semanaAnterior: 36,
+    semanaActual: 37
   }],
   lecturas: [{
     semana: 35,
@@ -9722,6 +13608,9 @@ export const data: Localidad[] = [{
   }, {
     semana: 36,
     casos: 0
+  }, {
+    semana: 37,
+    casos: 1
   }],
   lecturasAct: [{
     semana: 34,
@@ -9729,5 +13618,8 @@ export const data: Localidad[] = [{
   }, {
     semana: 35,
     casos: 2
+  }, {
+    semana: 36,
+    casos: 0
   }]
 }]
