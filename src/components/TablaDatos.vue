@@ -3,7 +3,9 @@
     <br />
     <h2>CASOS POR LOCALIDADES</h2>
     <br />
-    <b-form-input v-model="filtro" placeholder="Filtra por localidad" keyup="filtraLocalidad()"></b-form-input>
+    <b-form-select v-model="provinciaSelect" :options="provincias" @change="filtraLocalidad()"></b-form-select>
+    <hr />
+      <b-form-input v-model="filtro" placeholder="Filtra por localidad" @keyup="filtraLocalidad()"></b-form-input>
     <br />
     <b-table
       class="tablaLocalidades"
@@ -36,6 +38,15 @@ export default class TablaDatos extends Vue {
   cabecera: (string | number)[] = [];
   cuerpo: any[] = [];
   filtro = '';
+  provinciaSelect = 'todas';
+  provincias = [
+    { value: 'todas', text: 'TODAS' },
+    { value: 'Albacete', text: 'ALBACETE' },
+    { value: 'Ciudad Real', text: 'CIUDAD REAL' },
+    { value: 'Cuenca', text: 'CUENCA' },
+    { value: 'Guadalajara', text: 'GUADALAJARA' },
+    { value: 'Toledo', text: 'TOLEDO' }
+  ];
 
   created () {
     this.cabecera = this.preparaCabecera()
@@ -75,9 +86,7 @@ export default class TablaDatos extends Vue {
       const casos = loc.lecturasAct.map((lec) => lec.casos)
       const casoUltima = loc.lecturas[loc.lecturas.length - 1].casos
       const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
-      const habi = loc.habitantes.toString().includes('.')
-        ? loc.habitantes * 1000
-        : loc.habitantes
+      const habi = loc.habitantes
       const casos14 = (casoUltima + casos[casos.length - 1]) * (100000 / habi)
       const fila: (string | number)[] = [
         loc.nombre,
@@ -99,11 +108,26 @@ export default class TablaDatos extends Vue {
   }
 
   filtraLocalidad () {
-    if (this.filtro === '') {
+    if (this.filtro === '' && this.provinciaSelect === 'todas') {
       return this.cuerpo
-    } else {
+    } else if (this.filtro !== '' && this.provinciaSelect === 'todas') {
       const filtrado = this.cuerpo.filter((elem) => {
         return elem.Localidad.toUpperCase().includes(this.filtro.toUpperCase())
+      })
+      return filtrado
+    } else if (this.filtro === '' && this.provinciaSelect !== 'todas') {
+      const filtrado = this.cuerpo.filter((elem) => {
+        return (
+          elem.Provincia.toUpperCase() === this.provinciaSelect.toUpperCase()
+        )
+      })
+      return filtrado
+    } else {
+      const filtrado = this.cuerpo.filter((elem) => {
+        return (
+          elem.Localidad.toUpperCase().includes(this.filtro.toUpperCase()) &&
+          elem.Provincia.toUpperCase() === this.provinciaSelect.toUpperCase()
+        )
       })
       return filtrado
     }
