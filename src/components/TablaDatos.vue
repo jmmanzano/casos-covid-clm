@@ -28,12 +28,13 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { data } from '../data/data'
+import * as data from '../data/data.json'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 @Component
 export default class TablaDatos extends Vue {
+  dataLocal: any
   arrayCabecera: Record<string, any>[] = [];
   cabecera: (string | number)[] = [];
   cuerpo: any[] = [];
@@ -49,17 +50,18 @@ export default class TablaDatos extends Vue {
   ];
 
   created () {
+    this.dataLocal = data
     this.cabecera = this.preparaCabecera()
     this.cuerpo = this.preparaDatos()
   }
 
   preparaCabecera () {
-    const semanas = data[0].lecturas.map((lec) => lec.semana.toString())
+    const semanas = this.dataLocal.default[0].lecturas.map((lec: { semana: { toString: () => any } }) => lec.semana.toString())
     const cabecera = [
       'Localidad',
       'Provincia',
       'Habitantes',
-      data[0].lecturasAct[0].semana
+      this.dataLocal.default[0].lecturasAct[0].semana
     ]
       .concat(semanas)
       .concat('Acumulado')
@@ -82,7 +84,7 @@ export default class TablaDatos extends Vue {
 
   preparaDatos () {
     const tablaLocCasosSemana: any[] = []
-    data.forEach((loc) => {
+    this.dataLocal.default.forEach((loc: { lecturasAct: any[]; lecturas: string|any[]; habitantes: any; nombre: any; provincia: any }) => {
       const casos = loc.lecturasAct.map((lec) => lec.casos)
       const casoUltima = loc.lecturas[loc.lecturas.length - 1].casos
       const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima

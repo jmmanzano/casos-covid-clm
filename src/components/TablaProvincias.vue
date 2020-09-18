@@ -11,27 +11,29 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { data } from '../data/data'
+import * as data from '../data/data.json'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 @Component
 export default class TablaProvincias extends Vue {
+  dataLocal: any
   arrayCabecera: Record<string, any>[] = []
   cabecera: (string | number)[] = []
   cuerpo: any[] = []
 
   created () {
+    this.dataLocal = data
     this.cabecera = this.preparaCabecera()
     this.cuerpo = this.preparaDatos()
   }
 
   preparaCabecera () {
-    const semanas = data[0].lecturas.map(lec => lec.semana)
+    const semanas = this.dataLocal.default[0].lecturas.map((lec: { semana: any }) => lec.semana)
     const cabecera = [
       'Provincia',
       'Habitantes',
-      data[0].lecturasAct[0].semana]
+      this.dataLocal.default[0].lecturasAct[0].semana]
       .concat(semanas)
       .concat('Acumulado')
       .concat('Tasa 14 dias')
@@ -52,12 +54,14 @@ export default class TablaProvincias extends Vue {
 
   preparaDatos () {
     const tablaProvincias: any[] = []
-    const provincias = [...new Set(data.map(lec => lec.provincia))]
+    const provincias = [...new Set(this.dataLocal.default.map((lec: { provincia: any }) => lec.provincia))]
     provincias.forEach(prov => {
       const arrayProvincia: any[] = []
-      const localidadesProv = data.filter(loc => { return loc.provincia === prov })
-      localidadesProv.forEach(loc => {
-        const casos: any[] = loc.lecturasAct.map(lec => lec.casos)
+      const localidadesProv = this.dataLocal.default.filter((loc: { provincia: unknown }) => { return loc.provincia === prov })
+      localidadesProv.forEach((loc: { lecturasAct: { casos: any }[]; lecturas: string|any[]; habitantes: any; provincia: any }) => {
+        const casos: any[] = loc.lecturasAct.map((lec: { casos: any }) => {
+          return lec.casos
+        })
         const casoUltima: any = loc.lecturas[loc.lecturas.length - 1].casos
         const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
         const habi = loc.habitantes

@@ -7,22 +7,22 @@
       :center="center"
     >
       <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
-      <l-geo-json :geojson="municipiosLocal" :options="options" :options-style="styleFunction"></l-geo-json>
+      <l-geo-json :geojson="municipiosLocal.default" :options="options" :options-style="styleFunction"></l-geo-json>
     </l-map>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import { municipios } from '../data/municipios'
-import { data } from '../data/data'
+import * as municipios from '../data/municipios.json'
+import * as data from '../data/data.json'
 import { LMap, LTileLayer, LGeoJson } from 'vue2-leaflet'
 import { GeoJson } from '../interfaces/GeoJson'
+import { Feature } from '../interfaces/Feature'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'leaflet/dist/leaflet.css'
-import { Feature } from '@/interfaces/Feature'
 
 @Component({
   components: {
@@ -32,7 +32,8 @@ import { Feature } from '@/interfaces/Feature'
   }
 })
 export default class MapaComponent extends Vue {
-  municipiosLocal: GeoJson
+  municipiosLocal: any
+  dataLocal: any
   url = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   zoom = 7
   center: number[] = [39.876019, -2.8]
@@ -45,10 +46,11 @@ export default class MapaComponent extends Vue {
 
   created () {
     this.municipiosLocal = municipios
-    data.forEach(loc => {
+    this.dataLocal = data
+    this.dataLocal.default.forEach((loc: { listaSemanas: string|any[]; habitantes: number; nombre: string }) => {
       const semana = loc.listaSemanas[loc.listaSemanas.length - 1]
       const tasa14 = this.filterNumber((semana.casosSemanaActual + semana.casosSemanaAnterior) * (100000 / loc.habitantes))
-      const municipios = this.municipiosLocal.features.find(mun => { return mun.properties.nomIne.trim().toLowerCase() === loc.nombre.trim().toLowerCase() })
+      const municipios = this.municipiosLocal.default.features.find((mun: { properties: { nomIne: string } }) => { return mun.properties.nomIne.trim().toLowerCase() === loc.nombre.trim().toLowerCase() })
       if (municipios !== undefined && loc.habitantes >= 1000) {
         municipios.properties.tasa14 = tasa14
       } else if (municipios !== undefined && loc.habitantes < 1000) {
@@ -64,7 +66,7 @@ export default class MapaComponent extends Vue {
   }
 
   get onEachFeatureFunction () {
-    return (feature: Feature, layer) => {
+    return (feature: Feature, layer: any) => {
       if (feature.properties.tasa14 === undefined) {
         feature.properties.tasa14 = 'Sin datos'
       }
