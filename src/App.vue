@@ -8,6 +8,7 @@
       <b-navbar-nav>
         <router-link class="nav-item nav-link" to="/">Localidades</router-link>
         <router-link class="nav-item nav-link" to="/provincias">Provincias</router-link>
+        <router-link class="nav-item nav-link" to="/mapa">Mapa</router-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
