@@ -62,6 +62,9 @@ export default class TablaProvincias extends Vue {
         const casos: any[] = loc.lecturasAct.map((lec: { casos: any }) => {
           return lec.casos
         })
+        // if (casos.length > 4) {
+        //   console.log(loc)
+        // }
         const casoUltima: any = loc.lecturas[loc.lecturas.length - 1].casos
         const suma = casos.reduce((sum, caso) => sum + caso) + casoUltima
         const habi = loc.habitantes

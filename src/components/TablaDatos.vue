@@ -17,6 +17,7 @@
       head-variant="light"
     ></b-table>
     <hr />
+    <p>Las localidades menores de 1000 habitantes solo cuentan con datos desde la semana 37</p>
     <p>
       Datos obtenidos de la web:
       <a

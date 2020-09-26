@@ -1,3 +1,6 @@
+import { Lectura } from './Lectura'
+import { Semana } from './Semana'
+
 export interface Properties {
   objectId: number;
   codIne: string;
@@ -10,4 +13,5 @@ export interface Properties {
   pob2014: number;
   densidad: number;
   tasa14: (number|string);
+  ultimaSemana: Semana;
 }
