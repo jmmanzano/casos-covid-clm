@@ -23,7 +23,7 @@
         <span class="cuadro p-1" style="background-color: #f47a0a"><small>350&lt;Tasa&lt;400</small></span>
         <span class="cuadro p-1" style="background-color: #fa5d05"><small>400&lt;Tasa&lt;450</small></span>
         <span class="cuadro p-1" style="background-color: #ff3c00"><small>450&lt;Tasa&lt;500</small></span>
-        <span class="cuadro p-1" style="background-color: #fa0528"><small>>500</small></span>
+        <span class="cuadro p-1" style="background-color: #fa0528"><small>Tasa&gt;500</small></span>
         <hr style="clear: both" />
         <div >
     <p>Las localidades menores de 1000 habitantes solo cuentan con datos desde la semana 37</p>
