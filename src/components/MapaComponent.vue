@@ -95,7 +95,15 @@ export default class MapaComponent extends Vue {
         )
         if (municipios !== undefined && loc.habitantes >= 500) {
           municipios.properties.tasa14 = tasa14
+          municipios.properties.pob2014 = loc.habitantes
           municipios.properties.ultimaSemana = semana
+          if (semana.casosSemanaActual > semana.casosSemanaAnterior) {
+            municipios.properties.estado = 'Los casos suben con respecto a la semana anterior'
+          } else if (semana.casosSemanaActual < semana.casosSemanaAnterior) {
+            municipios.properties.estado = 'Los casos bajan con respecto a la semana anterior'
+          } else {
+            municipios.properties.estado = 'Los casos se mantienen igual que la semana anterior'
+          }
         } else if (municipios !== undefined && loc.habitantes < 500) {
           municipios.properties.tasa14 = -1
           municipios.properties.ultimaSemana = { semana: 'nd', casos: -1 }
@@ -123,6 +131,8 @@ export default class MapaComponent extends Vue {
       } else {
         layer.bindTooltip(
           `<div><h5>${feature.properties.etiqueta}</h5>
+     <b>${feature.properties.estado}<br></b>
+        Habitantes: ${feature.properties.pob2014}<br>
         Casos última semana: ${feature.properties.ultimaSemana.casosSemanaActual}<br>
         Casos semana anterior: ${feature.properties.ultimaSemana.casosSemanaAnterior}
         <br>Tasa contagios últimos 14 dias: ${feature.properties.tasa14}</div>`,

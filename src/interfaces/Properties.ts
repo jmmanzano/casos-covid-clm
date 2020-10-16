@@ -14,4 +14,5 @@ export interface Properties {
   densidad: number;
   tasa14: (number|string);
   ultimaSemana: Semana;
+  estado: string;
 }
